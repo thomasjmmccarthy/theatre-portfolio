@@ -1,10 +1,10 @@
 import { BrowserRouter, Outlet, Route, Routes } from 'react-router-dom';
 import './App.css'
-import Logo from './assets/logo/logo.png';
 import { ProductionsTab } from './tabs/productions/ProductionsTab';
 import { Navigator } from './components/Navigator';
 import { AboutTab } from './tabs/about/AboutTab';
 import { ExperienceTab } from './tabs/experience/ExperienceTab';
+import { Header } from './components/Header';
 
 function App() {
 
@@ -29,10 +29,12 @@ export default App
 
 function AppLayout() {
   return (
-    <div className='w-full flex justify-center'>
+    <div className='w-full flex flex-col items-center'>
+              
+      <Header />
+
       <div className='w-[90%] max-w-200 flex flex-col items-center'>
 
-        <img className='w-[90%] max-w-100' src={Logo} />
         <Navigator />
         
         <Outlet />

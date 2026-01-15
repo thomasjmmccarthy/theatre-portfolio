@@ -2,9 +2,12 @@
   {
     "company": "The Dark Slate Theatre Company",
     "roles": ["Founder", "Creative Director"],
+    "type": "appointment",
     "start": "08-2023",
     "end": null,
     "responsibilities": [
+      "Upholding oversight over the company's direction, managing the overall creative and design philosophy.",
+      "Leading the company on its various initiatives, both for productions and for outreach.",
       "Maintain and oversee rigorous health and safety standards (including PLI), risk assessments, reporting, and adapting to the needs of the company and venues.",
       "Provide support to the Technical Director for fit-ups, get outs, and equipment hire."
     ],
@@ -17,6 +20,7 @@
   {
     "company": "Russell House School",
     "roles": ["Lighting Technician"],
+    "type": "contract",
     "start": "10-2025",
     "end": "12-2025",
     "responsibilities": [
@@ -32,6 +36,7 @@
   {
     "company": "The University of York Drama Society",
     "roles": ["Technical Manager", "Venue Manager"],
+    "type": "appointment",
     "start": "01-2022",
     "end": "08-2025",
     "responsibilities": [
@@ -50,6 +55,7 @@
   {
     "company": "Russell House School",
     "roles": ["Lighting Designer", "Lighting Consultant"],
+    "type": "contract",
     "start": "06-2025",
     "end": "07-2025",
     "responsibilities": [
@@ -64,6 +70,7 @@
   {
     "company": "Old Vic Theatre Makers",
     "roles": ["Lead Technician"],
+    "type": "development",
     "start": "11-2024",
     "end": "02-2025",
     "responsibilities": [
@@ -76,13 +83,27 @@
 
 
   {
+    "company": "ETC",
+    "roles": ["Introduction to the Eos Family Control System"],
+    "type": "training",
+    "start": "10-2024",
+    "end": "10-2024",
+    "override_responsibilities": true,
+    "responsibilities": [
+      "Two-day intensive course with ETC, covering both basic and advanced concepts of the Eos Family Control System."
+    ]
+  },
+
+
+  {
     "company": "King's School Rochester",
     "roles": ["Theatre Production Member"],
+    "type": "training",
     "start": "09-2017",
     "end": "03-2023",
     "responsibilities": [
       "Spent four years as a student training in various backstage roles, including sound, lighting, and stage.",
-      "Organised and collaborated on large-scale musical productions as an integral part of the backstage crew, as well as leading smaller teams on initiatives",
+      "Organised and collaborated on large-scale musical productions as an integral part of the backstage crew, as well as leading smaller teams on initiatives.",
       "Returned on request as a former pupil to train new members of the team, as well as supervise and assist the sound crew on two musical productions."
     ],
     "activities": [
@@ -92,8 +113,22 @@
 
 
   {
+    "company": "National Theatre",
+    "roles": ["Shadowing"],
+    "type": "development",
+    "start": "09-2022",
+    "end": "09-2022",
+    "override_responsibilities": true,
+    "responsibilities": [
+      "Two days spent shadowing the National Theatre Live team as they worked on Much Ado About Nothing."
+    ]
+  },
+
+
+  {
     "company": "BFI Film Academy",
     "roles": ["Short-Film Producer","Short-Film Director"],
+    "type": "development",
     "start": "11-2020",
     "end": "03-2021",
     "responsibilities": [
@@ -108,6 +143,7 @@
   {
     "company": "Russell House School",
     "roles": ["Lighting Technician"],
+    "type": "contract",
     "start": "01-2021",
     "end": "01-2021",
     "responsibilities": [
