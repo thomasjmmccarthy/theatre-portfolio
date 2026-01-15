@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "roles": [""],
+  "writer": "",
+  "director": "",
+  "designers": [
+    { "role": "Set Designer", "name": "" },
+    { "role": "Costume Designer", "name": "" },
+    { "role": "Lighting Designer", "name": "" },
+    { "role": "Sound Designer", "name": "" }
+  ],
+  "company": null,
+  "venue": null,
+  "year": "0000",
+  "slug": ""
+}

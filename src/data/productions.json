@@ -1,0 +1,538 @@
+[
+  {
+    "name": "Acetone",
+    "roles": ["Lighting Designer"],
+    "writer": "Skye Kaune",
+    "director": "Skye Kaune & Beatrice Gordon-Clark",
+    "designers": [
+      { "role": "Set Designer", "name": "Finn O'Grady" },
+      { "role": "Costume Designer", "name": "Genie Rieuneau" },
+      { "role": "Sound Designer", "name": "Esther Bishop" }
+    ],
+    "company": null,
+    "venue": "libra-tc",
+    "year": "2026",
+    "photo": {
+      "credit": "Medina Makaeva"
+    },
+    "slug": "acetone"
+  },
+
+
+  {
+    "name": "Mixed Feelings",
+    "roles": ["Lighting Designer"],
+    "writer": "Ajjaz Awad-Ibrahim",
+    "director": "Ajjaz Awad-Ibrahim",
+    "designers": [
+      { "role": "Set Designer", "name": "Maebe Quinn" }
+    ],
+    "company": null,
+    "venue": "slt",
+    "year": "2025",
+    "photo": {
+      "credit": "Katherine Wilkinson",
+      "ext": "png"
+    },
+    "slug": "mixed-feelings"
+  },
+
+
+  {
+    "name": "The Great Gatsby",
+    "roles": ["Lighting Designer"],
+    "writer": "F. Scott Fitzgerald, adapted by Charles Kellet",
+    "director": "Charles Kellet",
+    "designers": [
+      { "role": "Set Designer", "name": "Kira Thomasson" },
+      { "role": "Costume Designer", "name": "Raven Meade" },
+      { "role": "Sound Designer", "name": "Ben Farnham" }
+    ],
+    "company": "dramasoc",
+    "venue": "drama-barn",
+    "year": "2025",
+    "photo": {
+      "credit": "Ella Tomlin"
+    },
+    "slug": "great-gatsby"
+  },
+
+
+  {
+    "name": "It's Dinner Time",
+    "roles": ["Lighting Designer"],
+    "writer": "Dylan Day & Maddie Cox",
+    "director": "Dylan Day & Maddie Cox",
+    "designers": [
+      { "role": "Set Designer", "name": "Jemima Borrill" },
+      { "role": "Costume Designer", "name": "Molly Hargreave" },
+      { "role": "Sound Designer", "name": "Kayla Vicente" }
+    ],
+    "company": "dramasoc",
+    "venue": "drama-barn",
+    "year": "2025",
+    "photo": {
+      "credit": "Ada Demirel"
+    },
+    "slug": "its-dinner-time"
+  },
+
+
+  {
+    "name": "Carousel",
+    "roles": ["Lighting Designer"],
+    "writer": "Eden Williams",
+    "director": "Eden Williams",
+    "designers": [
+      { "role": "Set Designer", "name": "Daisy Couture" },
+      { "role": "Costume Designer", "name": "Evie Gallagher" },
+      { "role": "Sound Designer", "name": "Blaise Heywood" }
+    ],
+    "company": "dramasoc",
+    "venue": "drama-barn",
+    "year": "2025",
+    "photo": {
+      "credit": "Jemima Borrill",
+      "ext": "jpeg"
+    },
+    "slug": "carousel"
+  },
+
+
+  {
+    "name": "Mirror Circle.",
+    "roles": ["Playwright", "Director"],
+    "writer": "Thomas McCarthy",
+    "director": "Thomas McCarthy",
+    "designers": [
+      { "role": "Set Designers", "name": "Annie Davison & Nell Hemmingfield" },
+      { "role": "Costume Designer", "name": "Alice Barnett" },
+      { "role": "Lighting Designer", "name": "Jack Walker" },
+      { "role": "Sound Designer", "name": "James Gabb" }
+    ],
+    "company": "dramasoc",
+    "venue": "drama-barn",
+    "year": "2025",
+    "photo": {
+      "credit": "Ella Tomlin"
+    },
+    "slug": "mirror-circle"
+  },
+
+
+  {
+    "name": "Growing Pains",
+    "roles": ["Lead Technician"],
+    "writer": "The Old Vic Theatre Makers 2025",
+    "director": "The Old Vic Theatre Makers 2025",
+    "designers": [
+      { "role": "Course Director", "name": "Joseph Hancock" },
+      { "role": "Scratch Night Producer", "name": "Gerline Ndombasi" },
+      { "role": "Projection Designer", "name": "Geneve Chu" }
+    ],
+    "company": "old-vic",
+    "venue": "theatre-peckham",
+    "year": "2025",
+    "photo": {
+      "credit": "Ali Wright"
+    },
+    "slug": "growing-pains"
+  },
+
+
+  {
+    "name": "Love in the time of Anarchy",
+    "roles": ["Lighting Designer"],
+    "writer": "Olivia Peterson",
+    "director": "Olivia Peterson",
+    "designers": [
+      { "role": "Set Designer", "name": "Francesca Di Giorno" },
+      { "role": "Costume Designer", "name": "Annie Davison" },
+      { "role": "Sound Designer", "name": "James Gabb" }
+    ],
+    "company": "dramasoc",
+    "venue": "drama-barn",
+    "year": "2024",
+    "slug": "love-in-the-time-of-anarchy"
+  },
+
+
+  {
+    "name": "The Unspoken",
+    "roles": ["Playwright", "Director"],
+    "writer": "Thomas McCarthy",
+    "director": "Thomas McCarthy",
+    "designers": [
+      { "role": "Set Designers", "name": "Finn O'Grady & Alice Pearson" },
+      { "role": "Costume Designer", "name": "Kayla Vicente" },
+      { "role": "Lighting Designer", "name": "Grace Redfern" },
+      { "role": "Sound Designer", "name": "Ben Farnham" },
+      { "role": "Composer", "name": "Sam Loft" }
+    ],
+    "company": "dark-slate",
+    "venue": "theatre-41",
+    "year": "2024",
+    "photo": {
+      "credit": "Zac Horn"
+    },
+    "slug": "unspoken-dark-slate"
+  },
+
+
+  {
+    "name": "Beautiful Thing",
+    "roles": ["Lighting Designer"],
+    "writer": "Jonathan Harvey",
+    "director": "Kira Thomasson & Keira Thompson-Taitt",
+    "designers": [
+      { "role": "Set Designer", "name": "Annie Roux" },
+      { "role": "Costume Designer", "name": "Kayla Vicente" },
+      { "role": "Sound Designer", "name": "Sam Hill" }
+    ],
+    "company": "dramasoc",
+    "venue": "drama-barn",
+    "year": "2024",
+    "photo": {
+      "credit": "Zac Horn"
+    },
+    "slug": "beautiful-thing"
+  },
+
+
+  {
+    "name": "GRAVE",
+    "roles": ["Lighting Designer"],
+    "writer": "Will Osbon",
+    "director": "Will Osbon",
+    "designers": [
+      { "role": "Costume Designer", "name": "Abagail Mortimer" },
+      { "role": "Sound Designer", "name": "Elizabeth Winstanley" }
+    ],
+    "company": "filfbag",
+    "venue": "hope-theatre",
+    "year": "2024",
+    "photo": {
+      "credit": "Kayla Vicente"
+    },
+    "slug": "grave"
+  },
+
+
+  {
+    "name": "Archangels",
+    "roles": ["Playwright", "Director"],
+    "writer": "Thomas McCarthy",
+    "director": "Thomas McCarthy",
+    "designers": [
+      { "role": "Set Designer", "name": "Alice Pearson" },
+      { "role": "Costume Designer", "name": "Kayla Vicente" },
+      { "role": "Lighting Designer", "name": "James Pennington" },
+      { "role": "Sound Designer", "name": "Ben Farnham" },
+      { "role": "Composer", "name": "Christian Blandford" }
+    ],
+    "company": "dramasoc",
+    "venue": "drama-barn",
+    "year": "2024",
+    "photo": {
+      "credit": "Zac Horn"
+    },
+    "slug": "archangels"
+  },
+
+
+  {
+    "name": "Space Oddity",
+    "roles": ["Lighting Designer", "Sound Designer"],
+    "writer": "Sam Loft",
+    "director": "Sam Loft",
+    "designers": [
+      { "role": "Set Designer", "name": "Becky O'Donnell" },
+      { "role": "Costume Designers", "name": "Abagail Mortimer & Vincent Klein" }
+    ],
+    "company": "dramasoc",
+    "venue": "drama-barn",
+    "year": "2024",
+    "photo": {
+      "credit": "Sam Loft"
+    },
+    "slug": "space-oddity"
+  },
+
+
+  {
+    "name": "Cyrano De Bergerac",
+    "roles": ["Lighting Designer"],
+    "writer": "Edmond Rostand",
+    "director": "Alexander Lambert & Zac Ribbins",
+    "designers": [
+      { "role": "Set Designer", "name": "Caitlin Berry" },
+      { "role": "Costume Designer", "name": "Kayla Vicente" },
+      { "role": "Sound Designer", "name": "Niamh Evans" }
+    ],
+    "company": "dramasoc",
+    "venue": "drama-barn",
+    "year": "2023",
+    "photo": {
+      "credit": "Ellie Carrier"
+    },
+    "slug": "cyrano-de-bergerac"
+  },
+
+
+  {
+    "name": "Meet Me By The Stranger",
+    "roles": ["Lighting Designer", "Sound Designer"],
+    "writer": "Gill Yue",
+    "director": "Gill Yue",
+    "designers": null,
+    "company": "voice-break",
+    "venue": "ed-fringe",
+    "year": "2023",
+    "slug": "meet-me-by-the-stranger"
+  },
+
+
+  {
+    "name": "I'm Not Here Right Now",
+    "roles": ["Lighting Designer", "Projection Designer"],
+    "writer": "Thomas Eccleshare",
+    "director": "Monica Yell",
+    "designers": [
+      { "role": "Costume Designer", "name": "Lotty Farmer" },
+      { "role": "Sound Designer", "name": "Maisy Arline S" }
+    ],
+    "company": "sact",
+    "venue": null,
+    "year": "2023",
+    "slug": "im-not-here-right-now"
+  },
+
+
+  {
+    "name": "The Addams Family",
+    "roles": ["Deputy Stage Manager"],
+    "writer": "Marshall Brickman & Rick Elice",
+    "director": "Darcey Chambers",
+    "designers": [
+      { "role": "Set Designer", "name": "Anna Cornish" },
+      { "role": "Costume Designers", "name": "Jennifer Stead & Sadira Pyne-Bailey" },
+      { "role": "Lighting Designer", "name": "Kieran Fowler Wright" },
+      { "role": "Sound Designer", "name": "Gemma Crome" }
+    ],
+    "company": "chms",
+    "venue": null,
+    "year": "2023",
+    "photo": {
+      "credit": "Tegan Steward"
+    },
+    "slug": "addams-family"
+  },
+
+
+  {
+    "name": "The Last Masquerade",
+    "roles": ["Playwright", "Director", "Sound Designer"],
+    "writer": "Thomas McCarthy",
+    "director": "Thomas McCarthy",
+    "designers": [
+      { "role": "Set Designer", "name": "Alice Pearson" },
+      { "role": "Costume Designer", "name": "Priya Lahiri" },
+      { "role": "Lighting Designer", "name": "Grace Redfern" },
+      { "role": "Sound Designers", "name": "Ben Farnham & Thomas McCarthy" }
+    ],
+    "company": "dramasoc",
+    "venue": "drama-barn",
+    "year": "2023",
+    "photo": {
+      "credit": "Lotty Farmer"
+    },
+    "slug": "last-masquerade"
+  },
+
+
+  {
+    "name": "Moon Landing",
+    "roles": ["Sound Operator"],
+    "writer": "Stephen Edwards",
+    "director": "Karen Hebden",
+    "designers": [
+      { "role": "Lighting Designer", "name": "Will Carter" }
+    ],
+    "company": "ksr",
+    "venue": null,
+    "year": "2023",
+    "slug": "moon-landing"
+  },
+
+
+  {
+    "name": "The Unspoken",
+    "roles": ["Playwright", "Director"],
+    "writer": "Thomas McCarthy",
+    "director": "Thomas McCarthy",
+    "designers": [
+      { "role": "Set Designer", "name": "Harvey Kitchen" },
+      { "role": "Costume Designer", "name": "Priya Lahiri" },
+      { "role": "Lighting Designer", "name": "Maisy Arline S" },
+      { "role": "Sound Designer", "name": "Niamh Evans" }
+    ],
+    "company": "dramasoc",
+    "venue": "drama-barn",
+    "year": "2023",
+    "photo": {
+      "credit": "Zac Horn"
+    },
+    "slug": "unspoken-dramasoc"
+  },
+
+
+  {
+    "name": "Holes",
+    "roles": ["Sound Designer"],
+    "writer": "Tom Basden",
+    "director": "Maisy Arline S & Niamh Evans",
+    "designers": [
+      { "role": "Set Designer", "name": "Madeleine McGlone" },
+      { "role": "Costume Designer", "name": "Bella Kettle" },
+      { "role": "Lighting Designer", "name": "Luke McDonald" }
+    ],
+    "company": "dramasoc",
+    "venue": "drama-barn",
+    "year": "2023",
+    "photo": {
+      "credit": "Zoe Street"
+    },
+    "slug": "holes"
+  },
+
+
+  {
+    "name": "The Hard Boiled Egg",
+    "roles": ["Projection Designer"],
+    "writer": "Eugène Ionesco",
+    "director": "Dan Sinclair",
+    "designers": [
+      { "role": "Set Designer", "name": "Harvey Kitchen" },
+      { "role": "Costume Designer", "name": "Lee Chapman" },
+      { "role": "Lighting Designer", "name": "George Robertson" },
+      { "role": "Sound Designer", "name": "Will Harvey" }
+    ],
+    "company": "dramasoc",
+    "venue": "drama-barn",
+    "year": "2022",
+    "photo": {
+      "credit": "Thomas McCarthy"
+    },
+    "slug": "hard-boiled-egg"
+  },
+
+
+  {
+    "name": "The Pillowman",
+    "roles": ["Director"],
+    "writer": "Martin McDonagh",
+    "director": "Thomas McCarthy",
+    "designers": [
+      { "role": "Set Designer", "name": "Poppy Nunan" },
+      { "role": "Costume Designer", "name": "Grace Atkinson" },
+      { "role": "Lighting Designer", "name": "Maisy Arline S" },
+      { "role": "Sound Designer", "name": "Niamh Evans" }
+    ],
+    "company": "dramasoc",
+    "venue": "drama-barn",
+    "year": "2022",
+    "photo": {
+      "credit": "Lotty Farmer"
+    },
+    "slug": "pillowman"
+  },
+
+  
+  {
+    "name": "In The Walls",
+    "roles": ["Lighting Designer"],
+    "writer": "Charlotte Powell",
+    "director": "Lily Ball",
+    "designers": [
+      { "role": "Set Designer", "name": "Claire Cole" },
+      { "role": "Costume Designer", "name": "Chloe Nightingale" },
+      { "role": "Sound Designer", "name": "Nathan Butler" }
+    ],
+    "company": "dramasoc",
+    "venue": "drama-barn",
+    "year": "2022",
+    "photo": {
+      "credit": "Gill Yue"
+    },
+    "slug": "in-the-walls"
+  },
+
+
+  {
+    "name": "Fiddler on the Roof",
+    "roles": ["Sound Supervisor", "Sound Team Coordinator"],
+    "writer": "Joseph Stein",
+    "director": "Karen Hebden",
+    "designers": [
+      { "role": "Lighting Designer", "name": "Will Carter" }
+    ],
+    "company": "ksr",
+    "venue": null,
+    "year": "2022",
+    "slug": "fiddler-on-the-roof"
+  },
+
+
+  {
+    "name": "Dear Brutus",
+    "roles": ["Producer"],
+    "writer": "J.M. Barrie",
+    "director": "Alicia Oldbury",
+    "designers": [
+      { "role": "Set Designer", "name": "Jemima Holliday" },
+      { "role": "Costume Designer", "name": "Ines Aresti" },
+      { "role": "Lighting Designer", "name": "Maisy Arline S" },
+      { "role": "Sound Designer", "name": "Amber Wright" }
+    ],
+    "company": "dramasoc",
+    "venue": "drama-barn",
+    "year": "2021",
+    "photo": {
+      "credit": "Zac Horn"
+    },
+    "slug": "dear-brutus"
+  },
+
+
+  {
+    "name": "The Macbeths",
+    "roles": ["Assistant Director"],
+    "writer": "William Shakespeare",
+    "director": "Steve Mount",
+    "designers": null,
+    "company": "ksr",
+    "venue": null,
+    "year": "2020",
+    "photo": {
+      "credit": "Thomas McCarthy"
+    },
+    "slug": "macbeths"
+  },
+
+
+  {
+    "name": "Titanic The Musical",
+    "roles": ["Sound Operator"],
+    "writer": "Peter Stone",
+    "director": "Karen Hebden",
+    "designers": [
+      { "role": "Lighting Designer", "name": "Will Carter" }
+    ],
+    "company": "ksr",
+    "venue": null,
+    "year": "2019",
+    "slug": "titanic-the-musical"
+  }
+
+
+]

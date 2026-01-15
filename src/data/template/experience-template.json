@@ -1,0 +1,10 @@
+{
+  "company": "",
+  "roles": [""],
+  "start": "month year",
+  "end": null,
+  "activities": [
+    "one",
+    "two"
+  ]
+}

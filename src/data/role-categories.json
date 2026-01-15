@@ -1,0 +1,43 @@
+{
+  "lighting": {
+    "name": "Lighting Design",
+    "roles": [
+      "Lighting Designer",
+      "Lead Technician"
+    ]
+  },
+
+  "sound": {
+    "name": "Sound Design",
+    "roles": [
+      "Sound Designer",
+      "Lead Technician",
+      "Sound Operator",
+      "Sound Supervisor",
+      "Sound Team Coordinator"
+    ]
+  },
+
+  "writing": {
+    "name": "Writing",
+    "roles": [
+      "Playwright"
+    ]
+  },
+
+  "directing": {
+    "name": "Directing",
+    "roles": [
+      "Director",
+      "Assistant Director"
+    ]
+  },
+
+  "production_management": {
+    "name": "Production Management",
+    "roles": [
+      "Producer",
+      "Deputy Stage Manager"
+    ]
+  }
+}

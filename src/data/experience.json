@@ -1,0 +1,120 @@
+[
+  {
+    "company": "The Dark Slate Theatre Company",
+    "roles": ["Founder", "Creative Director"],
+    "start": "08-2023",
+    "end": null,
+    "responsibilities": [
+      "Maintain and oversee rigorous health and safety standards (including PLI), risk assessments, reporting, and adapting to the needs of the company and venues.",
+      "Provide support to the Technical Director for fit-ups, get outs, and equipment hire."
+    ],
+    "activities": [
+      "Managed, financed, and developed an immersive-style theatre production with 33 emerging artists at York’s leading black-box venue."
+    ]
+  },
+
+
+  {
+    "company": "Russell House School",
+    "roles": ["Lighting Technician"],
+    "start": "10-2025",
+    "end": "12-2025",
+    "responsibilities": [
+      "Hired to upgrade Russell House School's lighting control from LightShark LS-1 to ETC Eos.",
+      "Provided requirements of the ETCnomad education package, and aided with equipment sourcing.",
+      "Designed and constructed a custom lighting keyboard to interface with Eos, writing custom firmware in the C programming language.",
+      "Developed a detailed lesson plan, and provided both basic and advanced Eos training to three members of staff, using the custom keyboard and ETCnomad."
+    ],
+    "activities": null
+  },
+
+
+  {
+    "company": "The University of York Drama Society",
+    "roles": ["Technical Manager", "Venue Manager"],
+    "start": "01-2022",
+    "end": "08-2025",
+    "responsibilities": [
+      "Managed and maintained light, sound, stage and video facilities at the society's black-box theatre.",
+      "Worked with designers for get-ins, programming, get-outs.",
+      "Provided training for designers in ETC Eos and QLab",
+      "Oversaw and conducted rigging, patching, and troubleshooting of issues when required."
+    ],
+    "activities": [
+      "Provided technical assistance to seventy DramaSoc productions.",
+      "Designed and developed a bespoke auditioning website, CastingBot."
+    ]
+  },
+
+
+  {
+    "company": "Russell House School",
+    "roles": ["Lighting Designer", "Lighting Consultant"],
+    "start": "06-2025",
+    "end": "07-2025",
+    "responsibilities": [
+      "Attended rehearsals, technical and dress runs for the school's summer production.",
+      "Delivered a complete lighting file, and attended performances to operate.",
+      "Inspected the venue's 13 moving head lights on request, noting and assessing wear-and-tear damages, and reporting faults back to the heads of school."
+    ],
+    "activities": null
+  },
+
+
+  {
+    "company": "Old Vic Theatre Makers",
+    "roles": ["Lead Technician"],
+    "start": "11-2024",
+    "end": "02-2025",
+    "responsibilities": [
+      "Communicated with the course's scratch night production teams, external freelance designers, Old Vic facilitators and Theatre Peckham to elicit and meet technical requirements.",
+      "Converted the venue rigging plan into a workable Augment3D model to program lighting cues in advance, including complex follow-cue and effects work.",
+      "Provided ETC Eos training to members of the cohort."
+    ],
+    "activities": null
+  },
+
+
+  {
+    "company": "King's School Rochester",
+    "roles": ["Theatre Production Member"],
+    "start": "09-2017",
+    "end": "03-2023",
+    "responsibilities": [
+      "Spent four years as a student training in various backstage roles, including sound, lighting, and stage.",
+      "Organised and collaborated on large-scale musical productions as an integral part of the backstage crew, as well as leading smaller teams on initiatives",
+      "Returned on request as a former pupil to train new members of the team, as well as supervise and assist the sound crew on two musical productions."
+    ],
+    "activities": [
+      "Created and managed radio mic plots, ran sound checks, and operated live mixing of 24 radio mics for a 60-person musical production with live orchestra."
+    ]
+  },
+
+
+  {
+    "company": "BFI Film Academy",
+    "roles": ["Short-Film Producer","Short-Film Director"],
+    "start": "11-2020",
+    "end": "03-2021",
+    "responsibilities": [
+      "Gained an insight into the creative industries, from writing and directing through to finance and team management skills."
+    ],
+    "activities": [
+      "Developed and released two short films remotely over the ten week course."
+    ]
+  },
+
+
+  {
+    "company": "Russell House School",
+    "roles": ["Lighting Technician"],
+    "start": "01-2021",
+    "end": "01-2021",
+    "responsibilities": [
+      "Researched the set-up, programming and operational requirements for an in-house LightShark LS-1 lighting console.",
+      "provided training to staff with no prior knowledge of theatre lighting systems.",
+      "Delivered a detailed instruction document covering essential use-cases."
+    ],
+    "activities": null
+  }
+]

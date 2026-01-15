@@ -1,0 +1,34 @@
+{
+
+  "chms": {
+    "name": "The Central Hall Musical Society"
+  },
+
+  "dark-slate": {
+    "name": "The Dark Slate Theatre Company"
+  },
+
+  "dramasoc": {
+    "name": "UoY DramaSoc"
+  },
+
+  "filfbag": {
+    "name": "Filfbag Theatre"
+  },
+
+  "ksr": {
+    "name": "King's School Rochester"
+  },
+
+  "old-vic": {
+    "name": "The Old Vic"
+  },
+
+  "sact": {
+    "name": "York School of Arts & Creative Technologies"
+  },
+
+  "voice-break": {
+    "name": "Voice Break Productions"
+  }
+}
