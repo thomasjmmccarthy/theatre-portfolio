@@ -138,18 +138,9 @@ function ProductionItem({p}) {
 
 function Thumbnail(slug, ext) {
   if(!slug) return null;
-  try {
-    const path = `../../assets/thumbnails/${slug}.${ext ? ext : 'jpg'}`;
-    const url = new URL(
-      path,
-      import.meta.url
-    ).href;
-    return url;
-  }
-  catch(err) {
-    console.log(err);
-    return null;
-  }
+  const base = import.meta.env.BASE_URL || '/';
+
+  return `${base}thumbnails/${slug}.${ext? ext : 'jpg'}`
 }
 
 
