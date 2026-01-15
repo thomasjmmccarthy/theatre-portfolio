@@ -1,10 +1,12 @@
 import { useNavigate } from 'react-router-dom';
 import experience from '../../data/experience.json';
 import { Hammer, Hand, LandPlot, NotepadText } from 'lucide-react';
+import { useTailwindScreen } from '../../components/TailwindScreen';
 
 export function ExperienceTab() {
 
   const navigate = useNavigate();
+  const { is } = useTailwindScreen();
 
   return (
     <div className='w-full'>
@@ -15,7 +17,7 @@ export function ExperienceTab() {
       </p>
       <p className='text-end text-xs italic text-[#555] mb-1 pt-1'>Ordered by most recent ending date.</p>
       {
-        experience.map((x, i) => <ExperienceItem key={i} x={x} />)
+        experience.map((x, i) => <ExperienceItem key={i} x={x} is={is} />)
       }
     </div>
   )
@@ -23,12 +25,12 @@ export function ExperienceTab() {
 }
 
 
-function ExperienceItem({x}) {
+function ExperienceItem({x, is}) {
 
   return (
     <div className='px-2 py-4 border-t-2 flex items-start justify-between overflow-hidden'>
       <div>
-        <p className='font-bold text-lg tracking-wide'>{x.company}</p>
+        <p className='font-bold text-lg tracking-wide leading-5 mb-4'>{x.company}</p>
         <div className='my-3'>
           {x.roles.map((r) => <p key={r} className='leading-5'>{r}</p>)}
         </div>
@@ -50,9 +52,9 @@ function ExperienceItem({x}) {
           </div>
         }
       </div>
-      <div className='flex flex-col items-end mt-0.5 min-w-25 md:min-w-40'>
-        <p className='text-sm hidden md:block'>{getFormattedDate(x.start, x.end)}</p>
-        <p className='block md:hidden'>{getFormattedDate(x.start, x.end, true)}</p>
+      <div className='flex flex-col items-end mt-0.5 min-w-20 md:min-w-40'>
+        <p className='text-sm hidden md:block'>{getFormattedDate(x.start, x.end, is)}</p>
+        <p className='block md:hidden'>{getFormattedDate(x.start, x.end, is, true)}</p>
         <ExperienceBadge type={x.type} />
       </div>
     </div>
@@ -61,13 +63,13 @@ function ExperienceItem({x}) {
 }
 
 
-function getFormattedDate(start, end, yearOnly=false) {
+function getFormattedDate(start, end, is, yearOnly=false) {
 
   const months = [ "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" ]
   let startStr;
   let endStr;
 
-  if(!end) endStr = 'present'
+  if(!end) endStr = is('md') ? 'present' : '';
   else {
     const endSegs = end.split('-');
     if(yearOnly) endStr = endSegs[1];
@@ -84,7 +86,7 @@ function getFormattedDate(start, end, yearOnly=false) {
 
 
 function ExperienceBadge({type}) {
-  
+
   const SIZE = 16;
 
   let text;

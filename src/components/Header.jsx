@@ -24,7 +24,7 @@ export function Header() {
 
         <div className='relative h-full w-full flex justify-center items-center'>
           <motion.img
-            className='w-[90%] max-w-100'
+            className='w-[80%] max-w-100'
             src={Logo}
             initial={{ opacity: 0, scale: 0.8, filter: 'blur(5px)' }}
             animate={{ opacity: 1, scale: 1, filter: 'blur(0)' }}
