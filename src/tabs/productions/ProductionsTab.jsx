@@ -118,7 +118,7 @@ function ProductionItem({p, is}) {
             className='absolute group-hover:saturate-0 group-hover:brightness-90 transition-all w-full h-full object-cover object-center'
           />
           {
-            p.photo?.credit && <p className='opacity-100 md:opacity-0 group-hover:opacity-100 transition-all select-none bg-black/75 text-white text-[10px] md:text-xs p-1 absolute bottom-0 right-0 rounded-tl-sm'>photo: {p.photo.credit}</p>
+            p.photo?.credit && <p className='opacity-70 md:opacity-0 group-hover:opacity-100 transition-all select-none bg-black/75 text-white text-[10px] md:text-xs p-1 absolute bottom-0 right-0 rounded-tl-sm'>photo: {p.photo.credit}</p>
           }
         </div>
         <div className='w-[95%] mt-3 md:mt-0 md:w-auto'>

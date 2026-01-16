@@ -1,7 +1,12 @@
 import Logo from '../assets/logo/logo.png';
 import { motion, useMotionTemplate, useReducedMotion, useScroll, useTransform } from 'motion/react';
+import { useTailwindScreen } from './TailwindScreen';
 
 export function Header() {
+
+  const { is } = useTailwindScreen();
+  const headerImage = is('sm') ? 'header.png' : 'mobile-header.png';
+
   const prefersReducedMotion = useReducedMotion();
   const { scrollY } = useScroll();
 
@@ -11,12 +16,16 @@ export function Header() {
   return (
     <div className='w-full h-80 relative group'>
 
-      <div className='relative h-full w-full overflow-hidden [clip-path:polygon(0_0,100%_0,100%_80%,0_100%)]'>
+      <div className='
+        relative h-full w-full overflow-hidden bg-black
+        [clip-path:polygon(0_0,100%_0,100%_85%,0_95%)]
+        md:[clip-path:polygon(0_0,100%_0,100%_80%,0_100%)]
+      '>
         {/* Background layer (parallax) */}
         <motion.div
           className='absolute inset-0 bg-cover bg-center pointer-events-none'
           style={{
-            backgroundImage: "url('/headers/header.png')",
+            backgroundImage: `url('/headers/${headerImage}')`,
             transform,
             willChange: 'transform',
           }}
