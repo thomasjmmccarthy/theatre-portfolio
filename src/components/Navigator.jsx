@@ -7,7 +7,7 @@ export function Navigator() {
 
   return (
     <div className='w-[90%] max-w-90 border-b-2 flex mb-16 mt-3'>
-      <NavOption label='Productions'  to='/'            active={!(pathname.startsWith('/experience') || pathname.startsWith('/about'))}  navigate={navigate} />
+      <NavOption label='Credits'      to='/'            active={!(pathname.startsWith('/experience') || pathname.startsWith('/about'))}  navigate={navigate} />
       <NavOption label='Experience'   to='/experience'  active={pathname.startsWith('/experience')}   navigate={navigate} />
       <NavOption label='About'        to='/about'       active={pathname.startsWith('/about')}   navigate={navigate} />
     </div>

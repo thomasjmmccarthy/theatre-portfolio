@@ -12,8 +12,8 @@ export function ExperienceTab() {
     <div className='w-full'>
       <p className='mb-6 text-center'>
         Experience includes <b>contract work, creative development, and relevant training</b> outside 
-        of production credits.<br/>
-        A full list of productions can be found in the <span className='underline cursor-pointer' onClick={() => navigate('/', {replace:true})}>Productions</span> tab.
+        of productions.<br/>
+        A full list of productions can be found in the <span className='underline cursor-pointer' onClick={() => navigate('/', {replace:true})}>Credits</span> tab.
       </p>
       <p className='text-end text-xs italic text-[#555] mb-1 pt-1'>Ordered by most recent ending date.</p>
       {
