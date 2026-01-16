@@ -9,12 +9,14 @@ export function AboutTab() {
           in <b>lighting design and technical theatre.</b> His work has featured in productions across Kent, London and York.
         </p>
         <p>
-          Thomas has been involved in creative development programmes including <b>the Old Vic Theatre Makers 
-          (2024/25)</b>, and is a <b>BFI Film Academy (2020/21) alumnus</b>, with a Silver Arts Award from Trinity College, London. In addition, he is 
-          a founding member and current <b>Creative Director of The Dark Slate Theatre Company</b>, which focuses on developing immersive productions.
+          Thomas has been involved in creative development programmes such as <b>the Old Vic Theatre Makers 
+          (2024/25)</b>, and is a <b>BFI Film Academy (2020/21) alumnus</b> with a Silver Arts Award from Trinity College, London.
         </p>
         <p>
-          Outside his lighting and technical work, Tommo enjoys writing his own plays, directing for theatre and film, reading John le Carré novels,
+          He is a founding member and current <b>Creative Director of The Dark Slate Theatre Company</b>, which focuses on developing immersive productions.
+        </p>
+        <p>
+          Outside his lighting and technical work, Tommo enjoys writing his own plays, directing, reading John le Carré novels,
           and making websites (including this one). He is currently trying to learn guitar, with debatable success.
         </p>
       </div>
