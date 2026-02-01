@@ -4,8 +4,9 @@ import venues from '../../data/venues.json';
 import categories from '../../data/role-categories.json';
 import { useEffect, useState } from 'react';
 import { AnimatePresence, motion } from 'motion/react';
-import { Filter } from 'lucide-react';
+import { Filter, Images } from 'lucide-react';
 import { useLocation, useNavigate } from 'react-router-dom';
+import { getGalleryUrls } from './gallery-viewer/getGallery';
 import { useTailwindScreen } from '../../components/TailwindScreen';
 
 
@@ -15,15 +16,18 @@ export function ProductionsTab() {
   const [filter, setFilter] = useState('');
 
   const navigate = useNavigate();
-  const { is } = useTailwindScreen();
 
   useEffect(() => {
     const pathSegs = pathname.split('/').filter(Boolean);
-    if(pathSegs.length > 0 && Object.keys(categories).includes(pathSegs[0])) {
-      setFilter(pathSegs[0]);
+    const pathEnd = pathSegs.length ? pathSegs[0] : null;
+
+    if(pathEnd) {
+      // Use path as filter
+      if(Object.keys(categories).includes(pathEnd)) setFilter(pathEnd);
+      else if(pathEnd === 'other') setFilter('other');
+      return;
     }
-    else if(pathSegs.length > 0 && pathSegs[0] === 'other') setFilter('other');
-    else setFilter('');
+    setFilter('');
   }, [pathname])
 
   let filteredProductions = productions;
@@ -73,7 +77,7 @@ export function ProductionsTab() {
       </div>
 
       <AnimatePresence initial={false} mode="popLayout">{
-        filteredProductions.map((p) => <ProductionItem key={p.slug} p={p} is={is} />)
+        filteredProductions.map((p) => <ProductionItem key={p.slug} p={p} />)
       }</AnimatePresence>
 
     </div>
@@ -82,11 +86,14 @@ export function ProductionsTab() {
 }
 
 
-function ProductionItem({p, is}) {
+function ProductionItem({p}) {
 
   const thumbnail = Thumbnail(p.slug, p.photo?.ext);
-
+  const hasGallery = getGalleryUrls(p.slug).length > 0;
   const writerDirector = (p.writer === p.director);
+
+  const { is } = useTailwindScreen();
+  const navigate = useNavigate();
 
   const variants = {
     hidden: () => ({
@@ -143,9 +150,22 @@ function ProductionItem({p, is}) {
           }
         </div>
       </div>
-      <div className='text-end mt-0.5 md:-mt-1 absolute right-0 top-2.5 md:relative md:top-0'>
+      <div className='text-end mt-0.5 md:-mt-1 absolute right-0 top-2.5 md:relative md:top-0 md:h-full'>
         <p className='text-xs md:text-sm'>{p.company && companies[p.company].name} {p.company && p.venue && 'at'} {p.venue && venues[p.venue].name} ({p.year})</p>
       </div>
+      {
+        hasGallery && 
+        <motion.div 
+          initial={{scale: 1}}
+          whileTap={{scale: 0.9}}
+          transition={{duration: 0.1}}
+          onClick={() => navigate(`/c/${p.slug}`)}
+          className='not-md:bottom-4 md:top-10 right-2 absolute flex items-center rounded-full md:rounded-sm bg-white border-[#535c68]/70 border-2 not-md:drop-shadow-lg hover:brightness-95 p-2 md:px-3 gap-2 cursor-pointer'
+        >
+          <p className='not-md:hidden text-[13px] text-[#535c68]'>Gallery</p>
+          <Images className='text-[#535c68]' size={is('md') ? 20 : 25} />
+        </motion.div>
+      }
     </motion.div>
   )
 }
