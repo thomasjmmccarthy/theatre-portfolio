@@ -5,12 +5,16 @@ import { Navigator } from './components/Navigator';
 import { AboutTab } from './tabs/about/AboutTab';
 import { ExperienceTab } from './tabs/experience/ExperienceTab';
 import { Header } from './components/Header';
+import { GalleryViewer } from './tabs/productions/gallery-viewer/GalleryViewer';
 
 function App() {
 
   return (
     <BrowserRouter>
       <Routes>
+        
+        <Route path='/c/*'             element={<GalleryViewer />} />
+
         <Route element={<AppLayout />} >
 
           <Route path='/about'           element={<AboutTab />} />

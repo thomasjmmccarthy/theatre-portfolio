@@ -9,11 +9,15 @@
       { "role": "Costume Designer", "name": "Genie Rieuneau" },
       { "role": "Sound Designer", "name": "Esther Bishop" }
     ],
+    "cast": [
+      "Sara Stemmons", "Mia Pobloth", "Steff Knappe"
+    ],
     "company": null,
     "venue": "libra-tc",
     "year": "2026",
     "photo": {
-      "credit": "Medina Makaeva"
+      "credit": "Medina Makaeva",
+      "gallery": ["Medina Makaeva", "Beatrice Gordon-Clark"]
     },
     "slug": "acetone"
   },
@@ -47,6 +51,10 @@
       { "role": "Set Designer", "name": "Kira Thomasson" },
       { "role": "Costume Designer", "name": "Raven Meade" },
       { "role": "Sound Designer", "name": "Ben Farnham" }
+    ],
+    "cast": [
+      "Corin Alford", "Ed Wells", "Ada Collett", "Joshua Steele", "Millie Hawking", "Amy Kilroy",
+      "Malachi Atherton", "Mark Paget", "Beth McVicar", "Stacey Hose"
     ],
     "company": "dramasoc",
     "venue": "drama-barn",
@@ -88,6 +96,9 @@
       { "role": "Costume Designer", "name": "Evie Gallagher" },
       { "role": "Sound Designer", "name": "Blaise Heywood" }
     ],
+    "cast": [
+      "Malachi Atherton", "Ed Wells", "Mariam Nachif", "Freya Leadbetter", "Ruby Large", "Daisy Dickinson"
+    ],
     "company": "dramasoc",
     "venue": "drama-barn",
     "year": "2025",
@@ -109,6 +120,10 @@
       { "role": "Costume Designer", "name": "Alice Barnett" },
       { "role": "Lighting Designer", "name": "Jack Walker" },
       { "role": "Sound Designer", "name": "James Gabb" }
+    ],
+    "cast": [
+      "Lauren Brine", "Kira Thomasson", "Mariam Nachif", "Ed Wells", "Lydia Hughes", 
+      "Audrey Lawler", "Shannon Timms"
     ],
     "company": "dramasoc",
     "venue": "drama-barn",
@@ -172,6 +187,11 @@
       { "role": "Sound Designer", "name": "Ben Farnham" },
       { "role": "Composer", "name": "Sam Loft" }
     ],
+    "cast": [
+      "Dylan Day", "Ellie-Mae Rooke", "Ezri Mannion", "Joshua Steele", "Zac Ribbins",
+      "Ed Wells", "Chloé George", "Ellie Carrier", "Sam Bellamy", "James Pennington",
+      "Jonathan Skinner", "Sophie Pounder", "Skye Kaune", "Tommy Haines", "Becky O'Donnell"
+    ],
     "company": "dark-slate",
     "venue": "theatre-41",
     "year": "2024",
@@ -192,6 +212,9 @@
       { "role": "Costume Designer", "name": "Kayla Vicente" },
       { "role": "Sound Designer", "name": "Sam Hill" }
     ],
+    "cast": [
+      "Edison Juniper", "Ollie Glen", "Grace Redfern", "Mina Dodd", "Zac Ribbins"
+    ],
     "company": "dramasoc",
     "venue": "drama-barn",
     "year": "2024",
@@ -211,11 +234,15 @@
       { "role": "Costume Designer", "name": "Abagail Mortimer" },
       { "role": "Sound Designer", "name": "Elizabeth Winstanley" }
     ],
+    "cast": [
+      "Billy Truscott", "Sylvie Agnello"
+    ],
     "company": "filfbag",
     "venue": "hope-theatre",
     "year": "2024",
     "photo": {
-      "credit": "Kayla Vicente"
+      "credit": "Kayla Vicente",
+      "gallery": ["Yogi Sylvain", "Kayla Vicente"]
     },
     "slug": "grave"
   },
@@ -232,6 +259,10 @@
       { "role": "Lighting Designer", "name": "James Pennington" },
       { "role": "Sound Designer", "name": "Ben Farnham" },
       { "role": "Composer", "name": "Christian Blandford" }
+    ],
+    "cast": [
+      "Chloe Lansdowne", "Joshua Steele", "Aidan Loft", "Ruby Large", "Will Sedgley",
+      "Kira Thomasson", "Vincent Klein", "Kyra Parvin", "Evie Maslen-Lines"
     ],
     "company": "dramasoc",
     "venue": "drama-barn",
@@ -303,6 +334,9 @@
     "designers": [
       { "role": "Costume Designer", "name": "Lotty Farmer" },
       { "role": "Sound Designer", "name": "Maisy Arline S" }
+    ],
+    "cast": [
+      "Luke McDonald", "Lotty Farmer"
     ],
     "company": "sact",
     "venue": null,
