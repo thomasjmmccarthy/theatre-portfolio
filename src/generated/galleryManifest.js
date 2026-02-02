@@ -38,6 +38,48 @@
       "h": 1036
     }
   ],
+  "archangels": [
+    {
+      "path": "/src/assets/galleries/archangels/01.jpg",
+      "w": 3180,
+      "h": 2385
+    },
+    {
+      "path": "/src/assets/galleries/archangels/02.jpg",
+      "w": 3840,
+      "h": 2560
+    },
+    {
+      "path": "/src/assets/galleries/archangels/03.jpg",
+      "w": 3840,
+      "h": 2560
+    },
+    {
+      "path": "/src/assets/galleries/archangels/04.jpg",
+      "w": 1644,
+      "h": 2192
+    },
+    {
+      "path": "/src/assets/galleries/archangels/05.jpg",
+      "w": 3840,
+      "h": 2560
+    },
+    {
+      "path": "/src/assets/galleries/archangels/06.jpg",
+      "w": 1920,
+      "h": 2560
+    },
+    {
+      "path": "/src/assets/galleries/archangels/07.jpg",
+      "w": 3413,
+      "h": 2560
+    },
+    {
+      "path": "/src/assets/galleries/archangels/08.jpg",
+      "w": 3840,
+      "h": 2560
+    }
+  ],
   "beautiful-thing": [
     {
       "path": "/src/assets/galleries/beautiful-thing/01.jpg",
@@ -83,48 +125,6 @@
       "path": "/src/assets/galleries/beautiful-thing/09.png",
       "w": 1280,
       "h": 963
-    }
-  ],
-  "archangels": [
-    {
-      "path": "/src/assets/galleries/archangels/01.jpg",
-      "w": 3180,
-      "h": 2385
-    },
-    {
-      "path": "/src/assets/galleries/archangels/02.jpg",
-      "w": 3840,
-      "h": 2560
-    },
-    {
-      "path": "/src/assets/galleries/archangels/03.jpg",
-      "w": 3840,
-      "h": 2560
-    },
-    {
-      "path": "/src/assets/galleries/archangels/04.jpg",
-      "w": 1644,
-      "h": 2192
-    },
-    {
-      "path": "/src/assets/galleries/archangels/05.jpg",
-      "w": 3840,
-      "h": 2560
-    },
-    {
-      "path": "/src/assets/galleries/archangels/06.jpg",
-      "w": 1920,
-      "h": 2560
-    },
-    {
-      "path": "/src/assets/galleries/archangels/07.jpg",
-      "w": 3413,
-      "h": 2560
-    },
-    {
-      "path": "/src/assets/galleries/archangels/08.jpg",
-      "w": 3840,
-      "h": 2560
     }
   ],
   "carousel": [
@@ -344,22 +344,22 @@
       "h": 4288
     },
     {
-      "path": "/src/assets/galleries/mirror-circle/08a_stab.jpg",
-      "w": 4288,
-      "h": 2854
-    },
-    {
       "path": "/src/assets/galleries/mirror-circle/08_tracker.jpg",
       "w": 2854,
       "h": 4288
     },
     {
-      "path": "/src/assets/galleries/mirror-circle/09_oakley.jpg",
+      "path": "/src/assets/galleries/mirror-circle/09_stab.jpg",
+      "w": 4288,
+      "h": 2854
+    },
+    {
+      "path": "/src/assets/galleries/mirror-circle/10.jpg",
       "w": 1280,
       "h": 962
     },
     {
-      "path": "/src/assets/galleries/mirror-circle/unnamed (1).jpg",
+      "path": "/src/assets/galleries/mirror-circle/11.jpg",
       "w": 722,
       "h": 962
     }

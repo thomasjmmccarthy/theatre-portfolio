@@ -146,17 +146,11 @@ function Row({ row, idx, isLast }) {
     const [a, b, c] = row.items;
     return (
       <RowContainer idx={idx} className={`grid grid-cols-[2fr_1fr] ${gapClass}`}>
-        <div className='w-full h-full'>
-          <img src={a.src} alt='' className={imgClass} loading="lazy" decoding="async" />
-        </div>
+        <LazyImage src={a.src} className={imgClass} />
 
         <div className={`grid grid-rows-2 ${gapClass} h-full w-full`}>
-          <div className='w-full h-full'>
-            <img src={b.src} alt='' className={imgClass} loading="lazy" decoding="async" />
-          </div>
-          <div className='w-full h-full'>
-            <img src={c.src} alt='' className={imgClass} loading="lazy" decoding="async" />
-          </div>
+          <LazyImage src={b.src} className={imgClass} />
+          <LazyImage src={c.src} className={imgClass} />
         </div>
       </RowContainer>
     )
@@ -177,9 +171,7 @@ function Row({ row, idx, isLast }) {
     return (
       <RowContainer idx={idx} className={`w-full grid ${templateCols[row.type]} ${gapClass}`}>
         {row.items.map((i) => (
-          <div key={i.src} className='w-full h-full'>
-            <img src={i.src} alt='' className={imgClass} loading="lazy" decoding="async" />
-          </div>
+          <LazyImage src={i.src} className={imgClass} />
         ))}
       </RowContainer>
     )
@@ -191,7 +183,7 @@ function Row({ row, idx, isLast }) {
     return (
       <RowContainer idx={idx} className={`w-full ${gapClass}`}>
         <div className='aspect-2/1'>
-          <img src={i.src} alt='' className={imgClass} loading="lazy" decoding="async" />
+          <LazyImage src={i.src} className={imgClass} />
         </div>
       </RowContainer>
     )
@@ -202,7 +194,7 @@ function Row({ row, idx, isLast }) {
     return (
       <RowContainer idx={idx} className={`w-1/2 ${gapClass}`}>
         <div className='aspect-3/4'>
-          <img src={i.src} alt='' className={imgClass} loading="lazy" decoding="async" />
+          <LazyImage src={i.src} className={imgClass} />
         </div>
       </RowContainer>
     )
@@ -223,5 +215,28 @@ function RowContainer({className, idx, children}) {
     >
       {children}
     </motion.div>
+  )
+}
+
+
+function LazyImage({ src, alt='', className='' }) {
+  const [loaded, setLoaded] = useState(false);
+
+  return (
+    <div className='relative w-full h-full overflow-hidden'>
+      {!loaded && (
+        <div className='absolute inset-0 animate-pulse bg-neutral-200' />
+      )}
+
+      <img 
+        src={src}
+        alt={alt}
+        loading='lazy'
+        decoding='async'
+        onLoad={() => setLoaded(true)}
+        onError={() => setLoaded(true)}
+        className={`${className} ${loaded ? 'opacity-100' : 'opacity-0'}`}
+      />
+    </div>
   )
 }
