@@ -160,7 +160,7 @@ function ProductionItem({p}) {
           whileTap={{scale: 0.9}}
           transition={{duration: 0.1}}
           onClick={() => navigate(`/c/${p.slug}`)}
-          className='not-md:bottom-4 md:top-10 right-2 absolute flex items-center rounded-full md:rounded-sm bg-white border-[#535c68]/70 border-2 not-md:drop-shadow-lg hover:brightness-95 p-2 md:px-3 gap-2 cursor-pointer'
+          className='absolute not-md:bottom-4 md:top-10 w-11 h-11 md:w-auto md:h-auto right-2 flex items-center rounded-full md:rounded-sm bg-white border-[#535c68]/70 border-2 not-md:drop-shadow-lg hover:brightness-95 p-2 md:px-3 gap-2 cursor-pointer'
         >
           <p className='not-md:hidden text-[13px] text-[#535c68]'>Gallery</p>
           <Images className='text-[#535c68]' size={is('md') ? 20 : 25} />
