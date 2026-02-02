@@ -45,8 +45,8 @@ export function GalleryViewer() {
     <div className='bg-white flex not-md:flex-col gap-6 z-100 not-md:overflow-y-auto'>
       
       {/* Sidebar */}
-      <div className='w-full md:h-[dvh] md:w-[20%] md:min-w-115 mt-15 md:mt-22'>
-        <div className='md:fixed md:w-[20%] md:min-w-115 px-10 md:px-15 w-full'>
+      <div className='w-full md:h-[dvh] md:w-[20%] md:min-w-115 mt-12 md:mt-22'>
+        <div className='md:fixed md:w-[20%] md:min-w-115 px-7 md:px-15 w-full'>
           <p className='text-[#999] text-[15px] tracking-widest mb-4 md:mb-6'>{p.year} — <b>{p.roles.map((r,i) => (i!==p.roles.length-1 ? `${r}, ` : r))}</b></p>
           <h1 className='font-bold text-3xl tracking-wide'>{p.name}</h1>
           <div className='mt-6 md:mt-8'>
@@ -95,7 +95,7 @@ export function GalleryViewer() {
             <p className='text-[#555] text-sm'>Preparing Gallery...</p>
           </div>
         :
-          <div className='w-full mt-10 flex justify-center'>
+          <div className='w-full mt-5 md:mt-10 flex justify-center'>
             <div className='w-full md:overflow-y-auto flex flex-col pb-6 not-md:px-3 md:pt-5 md:pb-15 md:pr-15'>
               {
                 rows.map((row, idx) => 
