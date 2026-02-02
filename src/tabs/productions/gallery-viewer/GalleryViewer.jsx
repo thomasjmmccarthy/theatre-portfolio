@@ -1,4 +1,4 @@
-import { getGalleryUrls, loadImageSize } from "./getGallery";
+import { getGallery } from "./getGallery";
 import productions from '../../../data/productions.json';
 import companies from '../../../data/companies.json';
 import venues from '../../../data/venues.json';
@@ -13,12 +13,12 @@ export function GalleryViewer() {
 
 
   const [p, setP] = useState(null);
-  const [images, setImages] = useState([]);
 
   const {pathname} = useLocation();
   const navigate = useNavigate();
 
-  const urls = useMemo(() => getGalleryUrls(p?.slug), [p]);
+  const images = useMemo(() => getGallery(p?.slug), [p?.slug]);
+  const rows = useMemo(() => buildRows(images), [images]);
 
   // Get production from path ending
   useEffect(() => {
@@ -37,19 +37,6 @@ export function GalleryViewer() {
     else navigate('/');
   }, [pathname]);
 
-  // Get gallery
-  useEffect(() => {
-    if(p && !urls.length) navigate('/');
-
-    Promise.all(urls.map((u) => loadImageSize(u)))
-      .then((result) => {
-        setImages(result);
-      })
-      .catch(console.error);
-
-  }, [urls]);
-
-  const rows = useMemo(() => buildRows(images), [images]);
   const writerDirector = p && (p.writer === p.director);
 
   if(!p) return null;
@@ -160,15 +147,15 @@ function Row({ row, idx, isLast }) {
     return (
       <RowContainer idx={idx} className={`grid grid-cols-[2fr_1fr] ${gapClass}`}>
         <div className='w-full h-full'>
-          <img src={a.src} alt='' className={imgClass} />
+          <img src={a.src} alt='' className={imgClass} loading="lazy" decoding="async" />
         </div>
 
         <div className={`grid grid-rows-2 ${gapClass} h-full w-full`}>
           <div className='w-full h-full'>
-            <img src={b.src} alt='' className={imgClass} />
+            <img src={b.src} alt='' className={imgClass} loading="lazy" decoding="async" />
           </div>
           <div className='w-full h-full'>
-            <img src={c.src} alt='' className={imgClass} />
+            <img src={c.src} alt='' className={imgClass} loading="lazy" decoding="async" />
           </div>
         </div>
       </RowContainer>
@@ -191,7 +178,7 @@ function Row({ row, idx, isLast }) {
       <RowContainer idx={idx} className={`w-full grid ${templateCols[row.type]} ${gapClass}`}>
         {row.items.map((i) => (
           <div key={i.src} className='w-full h-full'>
-            <img src={i.src} alt='' className={imgClass} />
+            <img src={i.src} alt='' className={imgClass} loading="lazy" decoding="async" />
           </div>
         ))}
       </RowContainer>
@@ -204,7 +191,7 @@ function Row({ row, idx, isLast }) {
     return (
       <RowContainer idx={idx} className={`w-full ${gapClass}`}>
         <div className='aspect-2/1'>
-          <img src={i.src} alt='' className={imgClass} />
+          <img src={i.src} alt='' className={imgClass} loading="lazy" decoding="async" />
         </div>
       </RowContainer>
     )
@@ -215,7 +202,7 @@ function Row({ row, idx, isLast }) {
     return (
       <RowContainer idx={idx} className={`w-1/2 ${gapClass}`}>
         <div className='aspect-3/4'>
-          <img src={i.src} alt='' className={imgClass} />
+          <img src={i.src} alt='' className={imgClass} loading="lazy" decoding="async" />
         </div>
       </RowContainer>
     )
