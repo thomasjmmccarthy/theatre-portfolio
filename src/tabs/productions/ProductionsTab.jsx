@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 import { AnimatePresence, motion } from 'motion/react';
 import { Filter, Images } from 'lucide-react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import { getGalleryUrls } from './gallery-viewer/getGallery';
+import { getGallery } from './gallery-viewer/getGallery';
 import { useTailwindScreen } from '../../components/TailwindScreen';
 
 
@@ -89,7 +89,7 @@ export function ProductionsTab() {
 function ProductionItem({p}) {
 
   const thumbnail = Thumbnail(p.slug, p.photo?.ext);
-  const hasGallery = getGalleryUrls(p.slug).length > 0;
+  const hasGallery = getGallery(p.slug).length > 0;
   const writerDirector = (p.writer === p.director);
 
   const { is } = useTailwindScreen();
