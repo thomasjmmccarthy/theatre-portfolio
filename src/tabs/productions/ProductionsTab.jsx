@@ -3,7 +3,7 @@ import companies from '../../data/companies.json';
 import venues from '../../data/venues.json';
 import categories from '../../data/role-categories.json';
 import { useEffect, useLayoutEffect, useMemo, useState } from 'react';
-import { AnimatePresence, motion } from 'motion/react';
+import { AnimatePresence, LayoutGroup, motion } from 'motion/react';
 import { SlidersVertical, Images } from 'lucide-react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { getGallery } from './gallery-viewer/getGallery';
@@ -105,9 +105,18 @@ export function ProductionsTab() {
         </div>
       </div>
 
-      <AnimatePresence initial={false} mode="popLayout">{
-        filteredProductions.map((p) => <ProductionItem key={p.slug} p={p} filter={filter} />)
-      }</AnimatePresence>
+      <LayoutGroup>
+        <div className='flex flex-col'>
+        {
+          productions.map((p) => {
+            const included = filteredProductions.includes(p);
+            return (
+              <ProductionItem key={p.slug} p={p} filter={filter} included={included} />
+            )
+          })
+        }
+        </div>
+      </LayoutGroup>
 
     </div>
   )
@@ -115,7 +124,9 @@ export function ProductionsTab() {
 }
 
 
-function ProductionItem({p, filter}) {
+function ProductionItem({p, filter, included}) {
+
+  const [collapsed, setCollapsed] = useState(!included);
 
   const thumbnail = Thumbnail(p.slug, p.photo?.ext);
   const hasGallery = getGallery(p.slug).length > 0;
@@ -124,71 +135,70 @@ function ProductionItem({p, filter}) {
   const { is } = useTailwindScreen();
   const navigate = useNavigate();
 
-  const variants = {
-    hidden: () => ({
-      opacity: 0,
-    }),
-    visible: () => ({
-      opacity: 1,
-    }),
-    exit: () => ({
-      opacity: 0,
-    })
-  }
+  useEffect(() => {
+    let t;
+    if(included) {
+      // Expanding - uncollapse immediately then fade in.
+      setCollapsed(false);
+    } else {
+      // Hiding - fade out first, then collapse
+      t = setTimeout(() => setCollapsed(true), 200);
+    }
+    return () => clearTimeout(t);
+  }, [included]);
 
   return (
-    <motion.div 
+    <div 
       key={p.slug} 
-      layout
-      className='px-2 py-6 md:py-4 border-t-2 flex items-start justify-between overflow-hidden relative'
-      variants={variants}
-      initial='hidden'
-      animate='visible'
-      exit='exit'
-      transition={{duration: 0.2}}
+      className={
+        `relative px-2 grid overflow-hidden transition-[grid-template-rows,opacity] duration-250
+          ease-out ${included ? 'opacity-100' : 'opacity-0'} ${collapsed ? 'grid-rows-[0fr] py-0' : 'grid-rows-[1fr] py-6 md:py-4 border-t-2'}`
+      }
     >
-      <div className='md:h-48.75 w-full md:w-auto flex flex-col items-center md:items-start md:flex-row gap-3 md:gap-6'>
-        {
-          !p.upcoming 
-          ?
-            <div className='relative h-62.5 md:h-full w-50 min-w-50 md:w-39 md:min-w-39 mt-4 md:mt-0 overflow-hidden group border-2 rounded-sm md:rounded-none md:border-0'>
-              <img 
-                src={thumbnail} 
-                className='absolute group-hover:saturate-0 group-hover:brightness-90 transition-all w-full h-full object-cover object-center'
-              />
+      <div className={`flex items-start justify-between overflow-hidden transition-[py]`}>
+        <div className={`md:h-48.75 w-full md:w-auto flex flex-col items-center md:items-start md:flex-row gap-3 md:gap-6`}>
+          {
+            !p.upcoming 
+            ?
+              <div className='relative h-62.5 md:h-full w-50 min-w-50 md:w-39 md:min-w-39 mt-4 md:mt-0 overflow-hidden group border-2 rounded-sm md:rounded-none md:border-0'>
+                <img 
+                  src={thumbnail} 
+                  className='absolute group-hover:saturate-0 group-hover:brightness-90 transition-all w-full h-full object-cover object-center'
+                />
+                {
+                  p.photo?.credit && <p className='opacity-70 md:opacity-0 group-hover:opacity-100 transition-all select-none bg-black/75 text-white text-[10px] md:text-xs p-1 absolute bottom-0 right-0 rounded-tl-sm'>photo: {p.photo.credit}</p>
+                }
+              </div>
+            : 
+              <div className='relative h-62.5 md:h-full w-50 min-w-50 md:w-39 md:min-w-39 mt-4 md:mt-0 border-2 rounded-sm md:rounded-none md:border-0 bg-[#e9e9e9] flex justify-center items-center'>
+                <img src={SmallLogo} className='w-1/2 opacity-20' />
+              </div>
+          }
+          <div className='w-[95%] mt-3 md:mt-0 md:w-auto'>
+            <p className='font-bold text-lg md:text-xl tracking-wide leading-5 mb-1'>{p.name}</p>
+            <div>
               {
-                p.photo?.credit && <p className='opacity-70 md:opacity-0 group-hover:opacity-100 transition-all select-none bg-black/75 text-white text-[10px] md:text-xs p-1 absolute bottom-0 right-0 rounded-tl-sm'>photo: {p.photo.credit}</p>
+                writerDirector
+                ? <p className='text-xs md:text-sm -mt-0.5'>a play by <b>{p.writer}</b></p>
+                : <div>
+                    <p className='text-xs md:text-sm -mt-0.5'>by <b>{p.writer}</b></p>
+                    <p className='text-xs md:text-sm -mt-0.5'>directed by <b>{p.director}</b></p>
+                  </div>
               }
             </div>
-          : 
-            <div className='relative h-62.5 md:h-full w-50 min-w-50 md:w-39 md:min-w-39 mt-4 md:mt-0 border-2 rounded-sm md:rounded-none md:border-0 bg-[#e9e9e9] flex justify-center items-center'>
-              <img src={SmallLogo} className='w-1/2 opacity-20' />
+            <div className='my-3'>
+              {p.roles.map((r) => <p key={r} className='text-sm md:text-md font-bold leading-5'>{r}</p>)}
             </div>
-        }
-        <div className='w-[95%] mt-3 md:mt-0 md:w-auto'>
-          <p className='font-bold text-lg md:text-xl tracking-wide leading-5 mb-1'>{p.name}</p>
-          <div>
             {
-              writerDirector
-              ? <p className='text-xs md:text-sm -mt-0.5'>a play by <b>{p.writer}</b></p>
-              : <div>
-                  <p className='text-xs md:text-sm -mt-0.5'>by <b>{p.writer}</b></p>
-                  <p className='text-xs md:text-sm -mt-0.5'>directed by <b>{p.director}</b></p>
-                </div>
+              p.designers?.map((d) => 
+                <p key={d.role} className='text-xs'>{d.role} - {d.name}</p>
+              )
             }
           </div>
-          <div className='my-3'>
-            {p.roles.map((r) => <p key={r} className='text-sm md:text-md font-bold leading-5'>{r}</p>)}
-          </div>
-          {
-            p.designers?.map((d) => 
-              <p key={d.role} className='text-xs'>{d.role} - {d.name}</p>
-            )
-          }
         </div>
-      </div>
-      <div className='text-end mt-0.5 md:-mt-1 absolute right-0 top-2.5 md:relative md:top-0 md:h-full'>
-        <p className='text-xs md:text-sm'>{p.company && companies[p.company].name} {p.company && p.venue && 'at'} {p.venue && venues[p.venue].name} ({p.year})</p>
+        <div className='text-end mt-0.5 md:-mt-1 absolute right-0 top-2.5 md:relative md:top-0 md:h-full'>
+          <p className='text-xs md:text-sm'>{p.company && companies[p.company].name} {p.company && p.venue && 'at'} {p.venue && venues[p.venue].name} ({p.year})</p>
+        </div>
       </div>
       {
         hasGallery && 
@@ -212,7 +222,7 @@ function ProductionItem({p, filter}) {
           <Images className='text-[#535c68]' size={is('md') ? 20 : 25} />
         </motion.div>
       }
-    </motion.div>
+    </div>
   )
 }
 
