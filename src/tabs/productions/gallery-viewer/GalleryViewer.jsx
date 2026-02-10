@@ -2,23 +2,32 @@ import { getGallery } from "./getGallery";
 import productions from '../../../data/productions.json';
 import companies from '../../../data/companies.json';
 import venues from '../../../data/venues.json';
+import categories from '../../../data/role-categories.json';
 import { useEffect, useMemo, useState } from "react";
 import { buildRows } from "./buildRows";
 import { useLocation, useNavigate } from "react-router-dom";
 import { motion } from "motion/react";
 import { useTailwindScreen } from "../../../components/TailwindScreen";
 import { Loader } from "../../../components/Loader";
+import { ArrowLeftToLine, X } from "lucide-react";
 
 export function GalleryViewer() {
 
-
   const [p, setP] = useState(null);
 
-  const {pathname} = useLocation();
+  const location = useLocation();
+  const { pathname, state } = location;
+
   const navigate = useNavigate();
 
+  const { is } = useTailwindScreen();
+  const allowThreeColumns = is('md');
+
   const images = useMemo(() => getGallery(p?.slug), [p?.slug]);
-  const rows = useMemo(() => buildRows(images), [images]);
+  const rows = useMemo(() => buildRows(images, allowThreeColumns), [images, allowThreeColumns]);
+
+  // Get whether or not the viewer was redirected from ProductionsTab
+  const redirected = state?.from?.pathname ?? false;
 
   // Get production from path ending
   useEffect(() => {
@@ -37,12 +46,45 @@ export function GalleryViewer() {
     else navigate('/');
   }, [pathname]);
 
+
+  // Handle the back button being pressed
+  const handleBack = () => {
+    const from = state?.from;
+    const fromScrollY = state?.fromScrollY;
+
+    if(from?.pathname !== null) {
+      navigate(`/${from.pathname}`, {
+        state: { restoreScrollY: fromScrollY ?? 0 },
+      });
+      return;
+    }
+
+    // Fallback - open standard production tab
+    navigate('/');
+  }
+
   const writerDirector = p && (p.writer === p.director);
 
   if(!p) return null;
 
   return (
     <div className='bg-white flex not-md:flex-col gap-6 z-100 not-md:overflow-y-auto'>
+
+      {
+        is('md') 
+        ? <div 
+            onClick={handleBack}
+            className='group fixed top-4 left-3 text-[#999] hover:text-[#222] flex items-center gap-2'
+          >
+            <ArrowLeftToLine className='bg-white p-2 w-10 h-10 rounded-full group-hover:drop-shadow-lg transition-all cursor-pointer border-2 border-white hover:border-[#222]' size={20} />
+            <p className='opacity-0 group-hover:opacity-100 transition-all text-sm select-none'>
+              {
+                redirected ? `${redirected === 'other' ? 'Other' : categories[redirected].name} Credits` : 'Credits'
+              }
+            </p>
+          </div>
+        : <X onClick={handleBack} size={24} className='absolute top-6 right-6 text-[#999] hover:text-[#222] cursor-pointer' />
+      }
       
       {/* Sidebar */}
       <div className='w-full md:h-[dvh] md:w-[20%] md:min-w-115 mt-12 md:mt-22'>
@@ -104,6 +146,7 @@ export function GalleryViewer() {
                     row={row} 
                     idx={idx} 
                     isLast={idx === rows.length-1} 
+                    allowThreeColumns={allowThreeColumns}
                   />
                 )
               }
@@ -117,14 +160,13 @@ export function GalleryViewer() {
 
 
 
-function Row({ row, idx, isLast }) {
+function Row({ row, idx, isLast, allowThreeColumns }) {
 
   const { is } = useTailwindScreen();
 
   const gap = (
     is('lg') ? 6
-    : is('md') ? 4
-    : is('sm') ? 2
+    : is('md') ? 2
     : 1
   )
 
@@ -180,9 +222,10 @@ function Row({ row, idx, isLast }) {
   // Single landscape
   if(row.type === 'L') {
     const i = row.items[0];
+    const aspect = allowThreeColumns ? 'aspect-2/1' : 'aspect-4/3';
     return (
       <RowContainer idx={idx} className={`w-full ${gapClass}`}>
-        <div className='aspect-2/1'>
+        <div className={aspect}>
           <LazyImage src={i.src} className={imgClass} />
         </div>
       </RowContainer>
@@ -191,9 +234,11 @@ function Row({ row, idx, isLast }) {
 
   if(row.type === 'P') {
     const i = row.items[0];
+    const width = allowThreeColumns ? 'w-1/2' : 'w-full';
+    const aspect = allowThreeColumns ? 'aspect-3/4' : 'aspect-7/8';
     return (
-      <RowContainer idx={idx} className={`w-1/2 ${gapClass}`}>
-        <div className='aspect-3/4'>
+      <RowContainer idx={idx} className={`${width} ${gapClass}`}>
+        <div className={aspect}>
           <LazyImage src={i.src} className={imgClass} />
         </div>
       </RowContainer>

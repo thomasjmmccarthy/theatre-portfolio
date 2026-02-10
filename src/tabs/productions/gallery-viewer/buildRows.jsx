@@ -7,7 +7,7 @@ const THREE_ITEM_PUSH_PATTERNS = [
 ];
 
 
-export function buildRows(images) {
+export function buildRows(images, allowThreeColumns=true) {
   const rows = [];
   let i = 0;
 
@@ -27,7 +27,7 @@ export function buildRows(images) {
     const pattern2 = `${ o(i) || "" }${ o(i+1) || "" }`;
 
     // 3-item patterns
-    if(THREE_ITEM_PATTERNS.includes(pattern3)) {
+    if(THREE_ITEM_PATTERNS.includes(pattern3) && allowThreeColumns) {
       rows.push({ type: pattern3, items: [a,b,c] });
       i += 3;
       continue;

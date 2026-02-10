@@ -1,5 +1,33 @@
 [
   {
+    "upcoming": true,
+    "name": "Black Mountain",
+    "roles": ["Lighting Designer"],
+    "writer": "Brad Birch",
+    "director": "Kurban Kassam",
+    "designers": [],
+    "cast": [],
+    "company": null,
+    "venue": "slt",
+    "year": "Apr 2026",
+    "slug": "black-mountain"
+  },
+
+  {
+    "upcoming": true,
+    "name": "Les Misérables",
+    "roles": ["Lighting Designer"],
+    "writer": "Alain Boublil & Claude-Michel Schönberg",
+    "director": "Oliver Bailey",
+    "designers": [],
+    "cast": [],
+    "company": "ksr",
+    "venue": null,
+    "year": "Mar 2026",
+    "slug": "les-miserables"
+  },
+
+  {
     "name": "Acetone",
     "roles": ["Lighting Designer"],
     "writer": "Skye Kaune",
