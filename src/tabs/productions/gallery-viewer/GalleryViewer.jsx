@@ -52,7 +52,9 @@ export function GalleryViewer() {
     const from = state?.from;
     const fromScrollY = state?.fromScrollY;
 
-    if(from?.pathname !== null) {
+    const hasFrom = from && from.pathname !== null;
+
+    if(hasFrom) {
       navigate(`/${from.pathname}`, {
         state: { restoreScrollY: fromScrollY ?? 0 },
       });
