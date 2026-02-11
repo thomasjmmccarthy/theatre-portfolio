@@ -1,8 +1,11 @@
 import Logo from '../assets/logo/logo.png';
 import { motion, useMotionTemplate, useReducedMotion, useScroll, useTransform } from 'motion/react';
 import { useTailwindScreen } from './TailwindScreen';
+import { useEffect, useState } from 'react';
 
 export function Header() {
+
+  const [imageLoaded, setImageLoaded] = useState(false);
 
   const { is } = useTailwindScreen();
   const headerImage = is('sm') ? 'header.png' : 'mobile-header.png';
@@ -12,6 +15,13 @@ export function Header() {
 
   const y = useTransform(scrollY, [0, 300], [0, prefersReducedMotion ? 0 : 200]);
   const transform = useMotionTemplate`translate3d(0, ${y}px, 0) scale(1.12)`
+
+  useEffect(() => {
+    setImageLoaded(false);
+    const img = new Image();
+    img.src = `/headers/${headerImage}`;
+    img.onload = () => setImageLoaded(true);
+  }, [headerImage]);
 
   return (
     <div className='w-full h-80 relative group'>
@@ -29,6 +39,9 @@ export function Header() {
             transform,
             willChange: 'transform',
           }}
+          initial={{opacity: 0, filter: 'blur(8px)'}}
+          animate={{opacity: imageLoaded ? 1 : 0, filter: imageLoaded ? 'blur(0px)' : 'blur(8px)'}}
+          transition={{duration: 0.6, ease: 'easeOut'}}
         />
 
         <div className='relative h-full w-full flex justify-center items-center'>

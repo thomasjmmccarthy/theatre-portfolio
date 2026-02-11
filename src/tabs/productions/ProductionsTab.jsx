@@ -63,9 +63,7 @@ export function ProductionsTab() {
   }, [filter])
 
   useLayoutEffect(() => {
-    console.log("Called with", state);
     if(typeof state?.restoreScrollY === 'number') {
-      console.log("Restoring scrollY to", state.restoreScrollY);
       window.scrollTo(0, state.restoreScrollY);
       // Clear the state so refresh doesn't cause jump
       navigate(pathname, { replace:true, state:null });
