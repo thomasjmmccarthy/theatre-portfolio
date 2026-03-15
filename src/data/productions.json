@@ -420,9 +420,7 @@
     "roles": ["Sound Operator"],
     "writer": "Stephen Edwards",
     "director": "Karen Hebden",
-    "designers": [
-      { "role": "Lighting Designer", "name": "Will Carter" }
-    ],
+    "designers": null,
     "company": "ksr",
     "venue": null,
     "year": "2023",
@@ -538,9 +536,7 @@
     "roles": ["Sound Supervisor", "Sound Team Coordinator"],
     "writer": "Joseph Stein",
     "director": "Karen Hebden",
-    "designers": [
-      { "role": "Lighting Designer", "name": "Will Carter" }
-    ],
+    "designers": null,
     "company": "ksr",
     "venue": null,
     "year": "2022",
@@ -590,9 +586,7 @@
     "roles": ["Sound Operator"],
     "writer": "Peter Stone",
     "director": "Karen Hebden",
-    "designers": [
-      { "role": "Lighting Designer", "name": "Will Carter" }
-    ],
+    "designers": null,
     "company": "ksr",
     "venue": null,
     "year": "2019",
