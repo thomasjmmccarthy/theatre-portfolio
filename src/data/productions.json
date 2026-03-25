@@ -14,7 +14,6 @@
   },
 
   {
-    "upcoming": true,
     "name": "Les Misérables",
     "roles": ["Lighting Designer"],
     "writer": "Alain Boublil & Claude-Michel Schönberg",
@@ -23,7 +22,11 @@
     "cast": [],
     "company": "ksr",
     "venue": null,
-    "year": "Mar 2026",
+    "year": "2026",
+    "photo": {
+      "coming_soon": true,
+      "ext": "png"
+    },
     "slug": "les-miserables"
   },
 

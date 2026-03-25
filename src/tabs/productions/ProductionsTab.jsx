@@ -89,7 +89,7 @@ export function ProductionsTab() {
 
       <div className='w-full flex md:justify-between mb-4'>
         <p className='hidden md:block'>
-          {creditCount} productions ({oldestYear} - {newestYear})
+          {creditCount} production{creditCount > 1 ? 's' : ''} ({oldestYear} - {newestYear})
         </p>
         <div className='flex gap-2 items-center w-full md:w-auto'>
           <SlidersVertical size={18} style={{color: filterIconColour}} className='mb-0.5 transition-all' />
@@ -164,7 +164,7 @@ function ProductionItem({p, filter, included}) {
                   className='absolute group-hover:saturate-0 group-hover:brightness-90 transition-all w-full h-full object-cover object-center'
                 />
                 {
-                  p.photo?.credit && <p className='opacity-70 md:opacity-0 group-hover:opacity-100 transition-all select-none bg-black/75 text-white text-[10px] md:text-xs p-1 absolute bottom-0 right-0 rounded-tl-sm'>photo: {p.photo.credit}</p>
+                  (p.photo?.credit || p.photo?.coming_soon) && <p className='opacity-70 md:opacity-0 group-hover:opacity-100 transition-all select-none bg-black/75 text-white text-[10px] md:text-xs p-1 absolute bottom-0 right-0 rounded-tl-sm'>{p.photo.coming_soon ? 'photo coming soon' : `photo: ${p.photo.credit}`}</p>
                 }
               </div>
             : 

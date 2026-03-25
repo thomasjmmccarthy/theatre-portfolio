@@ -6,38 +6,6 @@
     );
 
     export const galleryManifest = {
-  "acetone": [
-    {
-      "path": "/src/assets/galleries/acetone/01.jpg",
-      "w": 640,
-      "h": 480
-    },
-    {
-      "path": "/src/assets/galleries/acetone/02.jpeg",
-      "w": 1321,
-      "h": 990
-    },
-    {
-      "path": "/src/assets/galleries/acetone/03.jpg",
-      "w": 640,
-      "h": 480
-    },
-    {
-      "path": "/src/assets/galleries/acetone/04.jpg",
-      "w": 480,
-      "h": 640
-    },
-    {
-      "path": "/src/assets/galleries/acetone/05.jpg",
-      "w": 480,
-      "h": 640
-    },
-    {
-      "path": "/src/assets/galleries/acetone/06.jpeg",
-      "w": 1381,
-      "h": 1036
-    }
-  ],
   "archangels": [
     {
       "path": "/src/assets/galleries/archangels/01.jpg",
@@ -78,6 +46,65 @@
       "path": "/src/assets/galleries/archangels/08.jpg",
       "w": 3840,
       "h": 2560
+    }
+  ],
+  "acetone": [
+    {
+      "path": "/src/assets/galleries/acetone/01.jpg",
+      "w": 640,
+      "h": 480
+    },
+    {
+      "path": "/src/assets/galleries/acetone/02.jpeg",
+      "w": 1321,
+      "h": 990
+    },
+    {
+      "path": "/src/assets/galleries/acetone/03.jpg",
+      "w": 640,
+      "h": 480
+    },
+    {
+      "path": "/src/assets/galleries/acetone/04.jpg",
+      "w": 480,
+      "h": 640
+    },
+    {
+      "path": "/src/assets/galleries/acetone/05.jpg",
+      "w": 480,
+      "h": 640
+    },
+    {
+      "path": "/src/assets/galleries/acetone/06.jpeg",
+      "w": 1381,
+      "h": 1036
+    }
+  ],
+  "carousel": [
+    {
+      "path": "/src/assets/galleries/carousel/01.jpeg",
+      "w": 6000,
+      "h": 4000
+    },
+    {
+      "path": "/src/assets/galleries/carousel/02.jpeg",
+      "w": 2837,
+      "h": 3783
+    },
+    {
+      "path": "/src/assets/galleries/carousel/03.jpeg",
+      "w": 4890,
+      "h": 3668
+    },
+    {
+      "path": "/src/assets/galleries/carousel/04.jpeg",
+      "w": 2602,
+      "h": 3469
+    },
+    {
+      "path": "/src/assets/galleries/carousel/05.jpeg",
+      "w": 3684,
+      "h": 4912
     }
   ],
   "beautiful-thing": [
@@ -127,33 +154,6 @@
       "h": 963
     }
   ],
-  "carousel": [
-    {
-      "path": "/src/assets/galleries/carousel/01.jpeg",
-      "w": 6000,
-      "h": 4000
-    },
-    {
-      "path": "/src/assets/galleries/carousel/02.jpeg",
-      "w": 2837,
-      "h": 3783
-    },
-    {
-      "path": "/src/assets/galleries/carousel/03.jpeg",
-      "w": 4890,
-      "h": 3668
-    },
-    {
-      "path": "/src/assets/galleries/carousel/04.jpeg",
-      "w": 2602,
-      "h": 3469
-    },
-    {
-      "path": "/src/assets/galleries/carousel/05.jpeg",
-      "w": 3684,
-      "h": 4912
-    }
-  ],
   "grave": [
     {
       "path": "/src/assets/galleries/grave/01.png",
@@ -201,6 +201,48 @@
       "h": 560
     }
   ],
+  "growing-pains": [
+    {
+      "path": "/src/assets/galleries/growing-pains/01.jpg",
+      "w": 6720,
+      "h": 4480
+    },
+    {
+      "path": "/src/assets/galleries/growing-pains/02.jpg",
+      "w": 722,
+      "h": 963
+    },
+    {
+      "path": "/src/assets/galleries/growing-pains/03.jpg",
+      "w": 6720,
+      "h": 4480
+    },
+    {
+      "path": "/src/assets/galleries/growing-pains/04.jpg",
+      "w": 2860,
+      "h": 3813
+    },
+    {
+      "path": "/src/assets/galleries/growing-pains/05.jpg",
+      "w": 2488,
+      "h": 3317
+    },
+    {
+      "path": "/src/assets/galleries/growing-pains/07.jpg",
+      "w": 2029,
+      "h": 2705
+    },
+    {
+      "path": "/src/assets/galleries/growing-pains/08.jpg",
+      "w": 1973,
+      "h": 2631
+    },
+    {
+      "path": "/src/assets/galleries/growing-pains/10.jpg",
+      "w": 6319,
+      "h": 4213
+    }
+  ],
   "great-gatsby": [
     {
       "path": "/src/assets/galleries/great-gatsby/01.jpg",
@@ -246,48 +288,6 @@
       "path": "/src/assets/galleries/great-gatsby/08.jpg",
       "w": 4288,
       "h": 2854
-    }
-  ],
-  "growing-pains": [
-    {
-      "path": "/src/assets/galleries/growing-pains/01.jpg",
-      "w": 6720,
-      "h": 4480
-    },
-    {
-      "path": "/src/assets/galleries/growing-pains/02.jpg",
-      "w": 722,
-      "h": 963
-    },
-    {
-      "path": "/src/assets/galleries/growing-pains/03.jpg",
-      "w": 6720,
-      "h": 4480
-    },
-    {
-      "path": "/src/assets/galleries/growing-pains/04.jpg",
-      "w": 2860,
-      "h": 3813
-    },
-    {
-      "path": "/src/assets/galleries/growing-pains/05.jpg",
-      "w": 2488,
-      "h": 3317
-    },
-    {
-      "path": "/src/assets/galleries/growing-pains/07.jpg",
-      "w": 2029,
-      "h": 2705
-    },
-    {
-      "path": "/src/assets/galleries/growing-pains/08.jpg",
-      "w": 1973,
-      "h": 2631
-    },
-    {
-      "path": "/src/assets/galleries/growing-pains/10.jpg",
-      "w": 6319,
-      "h": 4213
     }
   ],
   "im-not-here-right-now": [
