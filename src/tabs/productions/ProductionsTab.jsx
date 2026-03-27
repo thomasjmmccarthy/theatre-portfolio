@@ -3,7 +3,7 @@ import companies from '../../data/companies.json';
 import venues from '../../data/venues.json';
 import categories from '../../data/role-categories.json';
 import { useEffect, useLayoutEffect, useMemo, useState } from 'react';
-import { AnimatePresence, LayoutGroup, motion } from 'motion/react';
+import { LayoutGroup, motion } from 'motion/react';
 import { SlidersVertical, Images } from 'lucide-react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { getGallery } from './gallery-viewer/getGallery';
@@ -73,10 +73,12 @@ export function ProductionsTab() {
   let creditCount;
   let oldestYear;
   let newestYear;
+  let duplicateYear = false;
   if(filteredProductions.length) {
     creditCount = filteredProductions.length;
     oldestYear = filteredProductions[filteredProductions.length-1].year;
     newestYear = filteredProductions[0].year;
+    duplicateYear = (oldestYear === newestYear)
   }
 
   const [filterIconColour, filterColour] = 
@@ -89,7 +91,7 @@ export function ProductionsTab() {
 
       <div className='w-full flex md:justify-between mb-4'>
         <p className='hidden md:block'>
-          {creditCount} production{creditCount > 1 ? 's' : ''} ({oldestYear} - {newestYear})
+          {creditCount} production{creditCount > 1 ? 's' : ''} ({duplicateYear ? `${oldestYear}` : `${oldestYear} - ${newestYear}`})
         </p>
         <div className='flex gap-2 items-center w-full md:w-auto'>
           <SlidersVertical size={18} style={{color: filterIconColour}} className='mb-0.5 transition-all' />

@@ -1,12 +1,16 @@
 import { useNavigate } from 'react-router-dom';
 import experience from '../../data/experience.json';
-import { Hammer, Hand, LandPlot, NotepadText } from 'lucide-react';
+import { Building2, Hammer, Hand, LandPlot, NotepadText } from 'lucide-react';
 import { useTailwindScreen } from '../../components/TailwindScreen';
 
 export function ExperienceTab() {
 
   const navigate = useNavigate();
   const { is } = useTailwindScreen();
+
+  const upcoming = experience.filter(x => x.upcoming);
+  const current = experience.filter(x => x.end === null && !x.upcoming);
+  const former = experience.filter(x => x.end !== null);
 
   return (
     <div className='w-full'>
@@ -15,13 +19,42 @@ export function ExperienceTab() {
         of productions.<br/>
         A full list of productions can be found in the <span className='underline cursor-pointer' onClick={() => navigate('/', {replace:true})}>Credits</span> tab.
       </p>
-      <p className='text-end text-xs italic text-[#555] mb-1 pt-1'>Ordered by most recent ending date.</p>
       {
-        experience.map((x, i) => <ExperienceItem key={i} x={x} is={is} />)
+        upcoming.length && 
+        <>
+          <SectionHeader label='Upcoming' />
+          {
+            upcoming.map((x, i) => <ExperienceItem key={i} x={x} is={is} />)
+          }
+        </>
+      }
+      {
+        current.length && 
+        <>
+          <SectionHeader label='Current' />
+          {
+            current.map((x, i) => <ExperienceItem key={i} x={x} is={is} />)
+          }
+        </>
+      }
+      {
+        former.length && 
+        <> 
+          <SectionHeader label='Former' />
+          <p className='-mt-6.5 text-end text-xs italic text-[#555] mb-1.5 pt-1 not-md:pr-2'>Ordered by most recent ending date.</p>
+          {
+            former.map((x, i) => <ExperienceItem key={i} x={x} is={is} />)
+          }
+        </>
       }
     </div>
   )
 
+}
+
+
+function SectionHeader({label}) {
+  return <h1 className='mt-12 font-bold uppercase md:text-[#aaa] text-xl not-md:bg-[#f5f5f5] not-md:px-1 not-md:border-t-2 border-black'>{label}</h1>
 }
 
 
@@ -34,27 +67,34 @@ function ExperienceItem({x, is}) {
         <div className='my-3'>
           {x.roles.map((r) => <p key={r} className='leading-5'>{r}</p>)}
         </div>
-        {!x.override_responsibilities && <p className='text-sm text-[#555] mt-4'>Responsibilities</p>}
-        <ul className='list-disc pl-8'>
-          {x.responsibilities.map((r) => 
-            <li key={r} className='text-sm text-[#555] leading-5'>{r}</li>
-          )}
-        </ul>
         {
-          x.activities && 
-          <div className='mt-4'>
-            <p className='text-sm text-[#555]'>Notable Activity</p>
-            <ul className='list-disc pl-8'>
-              {x.activities.map((a) => 
-                <li key={a} className='text-sm text-[#555] leading-5'>{a}</li>
-              )}
-            </ul>
-          </div>
+          !x.upcoming 
+          ? 
+            <>
+              {!x.override_responsibilities && <p className='text-sm text-[#555] mt-4'>Responsibilities</p>}
+              <ul className='list-disc pl-8'>
+                {x.responsibilities.map((r) => 
+                  <li key={r} className='text-sm text-[#555] leading-5'>{r}</li>
+                )}
+              </ul>
+              {
+                x.activities && 
+                <div className='mt-4'>
+                  <p className='text-sm text-[#555]'>Notable Activity</p>
+                  <ul className='list-disc pl-8'>
+                    {x.activities.map((a) => 
+                      <li key={a} className='text-sm text-[#555] leading-5'>{a}</li>
+                    )}
+                  </ul>
+                </div>
+              }
+            </>
+          : <div />
         }
       </div>
       <div className='flex flex-col items-end mt-0.5 min-w-20 md:min-w-40'>
-        <p className='text-sm hidden md:block'>{getFormattedDate(x.start, x.end, is)}</p>
-        <p className='block md:hidden'>{getFormattedDate(x.start, x.end, is, true)}</p>
+        {!x.upcoming && <p className='text-sm hidden md:block'>{getFormattedDate(x.start, x.end, is)}</p> }
+        {!x.upcoming && <p className='block md:hidden'>{getFormattedDate(x.start, x.end, is, true)}</p> }
         <ExperienceBadge type={x.type} />
       </div>
     </div>
@@ -95,13 +135,18 @@ function ExperienceBadge({type}) {
 
   if(!type) return null;
 
-  if(type === 'contract') {
-    text = 'Contract Work';
+  if(type === 'employment') {
+    text = 'Employment',
+    colour = '#fd79a8',
+    icon = <Building2 size={SIZE} />
+  }
+  else if(type === 'contract') {
+    text = 'Freelance';
     colour = '#55efc4';
     icon = <NotepadText size={SIZE} />
   }
   else if(type === 'appointment') {
-    text = 'Voluntary Role';
+    text = 'Voluntary';
     colour = '#a29bfe';
     icon = <Hand size={SIZE} />
   }

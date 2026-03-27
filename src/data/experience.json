@@ -1,4 +1,20 @@
 [
+
+  {
+    "upcoming": true,
+    "company": "Sadler's Wells",
+    "roles": ["Casual Theatre Technician (Lighting Bias)"],
+    "type": "employment",
+    "start": "04-2026",
+    "end": null,
+    "responsibilities": [
+      "Assisting with get-ins/outs and daily technical operations across Sadler's Wells' venues.",
+      "Supporting performances, ensuring safe, efficient running of shows.",
+      "Working collaboratively with visiting companies and in-house teams to deliver high production standards."
+    ],
+    "activities": null
+  },
+
   {
     "company": "The Dark Slate Theatre Company",
     "roles": ["Founder", "Creative Director"],
