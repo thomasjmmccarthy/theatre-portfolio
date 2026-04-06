@@ -6,80 +6,6 @@
     );
 
     export const galleryManifest = {
-  "acetone": [
-    {
-      "path": "/src/assets/galleries/acetone/01.jpg",
-      "w": 640,
-      "h": 480
-    },
-    {
-      "path": "/src/assets/galleries/acetone/02.jpeg",
-      "w": 1321,
-      "h": 990
-    },
-    {
-      "path": "/src/assets/galleries/acetone/03.jpg",
-      "w": 640,
-      "h": 480
-    },
-    {
-      "path": "/src/assets/galleries/acetone/04.jpg",
-      "w": 480,
-      "h": 640
-    },
-    {
-      "path": "/src/assets/galleries/acetone/05.jpg",
-      "w": 480,
-      "h": 640
-    },
-    {
-      "path": "/src/assets/galleries/acetone/06.jpeg",
-      "w": 1381,
-      "h": 1036
-    }
-  ],
-  "archangels": [
-    {
-      "path": "/src/assets/galleries/archangels/01.jpg",
-      "w": 3180,
-      "h": 2385
-    },
-    {
-      "path": "/src/assets/galleries/archangels/02.jpg",
-      "w": 3840,
-      "h": 2560
-    },
-    {
-      "path": "/src/assets/galleries/archangels/03.jpg",
-      "w": 3840,
-      "h": 2560
-    },
-    {
-      "path": "/src/assets/galleries/archangels/04.jpg",
-      "w": 1644,
-      "h": 2192
-    },
-    {
-      "path": "/src/assets/galleries/archangels/05.jpg",
-      "w": 3840,
-      "h": 2560
-    },
-    {
-      "path": "/src/assets/galleries/archangels/06.jpg",
-      "w": 1920,
-      "h": 2560
-    },
-    {
-      "path": "/src/assets/galleries/archangels/07.jpg",
-      "w": 3413,
-      "h": 2560
-    },
-    {
-      "path": "/src/assets/galleries/archangels/08.jpg",
-      "w": 3840,
-      "h": 2560
-    }
-  ],
   "beautiful-thing": [
     {
       "path": "/src/assets/galleries/beautiful-thing/01.jpg",
@@ -125,6 +51,48 @@
       "path": "/src/assets/galleries/beautiful-thing/09.png",
       "w": 1280,
       "h": 963
+    }
+  ],
+  "archangels": [
+    {
+      "path": "/src/assets/galleries/archangels/01.jpg",
+      "w": 3180,
+      "h": 2385
+    },
+    {
+      "path": "/src/assets/galleries/archangels/02.jpg",
+      "w": 3840,
+      "h": 2560
+    },
+    {
+      "path": "/src/assets/galleries/archangels/03.jpg",
+      "w": 3840,
+      "h": 2560
+    },
+    {
+      "path": "/src/assets/galleries/archangels/04.jpg",
+      "w": 1644,
+      "h": 2192
+    },
+    {
+      "path": "/src/assets/galleries/archangels/05.jpg",
+      "w": 3840,
+      "h": 2560
+    },
+    {
+      "path": "/src/assets/galleries/archangels/06.jpg",
+      "w": 1920,
+      "h": 2560
+    },
+    {
+      "path": "/src/assets/galleries/archangels/07.jpg",
+      "w": 3413,
+      "h": 2560
+    },
+    {
+      "path": "/src/assets/galleries/archangels/08.jpg",
+      "w": 3840,
+      "h": 2560
     }
   ],
   "carousel": [
@@ -414,6 +382,38 @@
       "path": "/src/assets/galleries/unspoken-dark-slate/12.JPG",
       "w": 1920,
       "h": 2560
+    }
+  ],
+  "acetone": [
+    {
+      "path": "/src/assets/galleries/acetone/01.jpg",
+      "w": 640,
+      "h": 480
+    },
+    {
+      "path": "/src/assets/galleries/acetone/02.jpeg",
+      "w": 1321,
+      "h": 990
+    },
+    {
+      "path": "/src/assets/galleries/acetone/03.jpg",
+      "w": 640,
+      "h": 480
+    },
+    {
+      "path": "/src/assets/galleries/acetone/04.jpg",
+      "w": 480,
+      "h": 640
+    },
+    {
+      "path": "/src/assets/galleries/acetone/05.jpg",
+      "w": 480,
+      "h": 640
+    },
+    {
+      "path": "/src/assets/galleries/acetone/06.jpeg",
+      "w": 1381,
+      "h": 1036
     }
   ]
 };
