@@ -20,32 +20,38 @@ export function ExperienceTab() {
         A full list of productions can be found in the <span className='underline cursor-pointer' onClick={() => navigate('/', {replace:true})}>Credits</span> tab.
       </p>
       {
-        upcoming.length && 
-        <>
-          <SectionHeader label='Upcoming' />
-          {
-            upcoming.map((x, i) => <ExperienceItem key={i} x={x} is={is} />)
-          }
-        </>
+        upcoming.length
+        ? 
+          <>
+            <SectionHeader label='Upcoming' />
+            {
+              upcoming.map((x, i) => <ExperienceItem key={i} x={x} is={is} />)
+            }
+          </>
+        : <div/>
       }
       {
-        current.length && 
-        <>
-          <SectionHeader label='Current' />
-          {
-            current.map((x, i) => <ExperienceItem key={i} x={x} is={is} />)
-          }
-        </>
+        current.length 
+        ?
+          <>
+            <SectionHeader label='Current' />
+            {
+              current.map((x, i) => <ExperienceItem key={i} x={x} is={is} />)
+            }
+          </>
+        : <div />
       }
       {
-        former.length && 
-        <> 
-          <SectionHeader label='Former' />
-          <p className='-mt-6.5 text-end text-xs italic text-[#555] mb-1.5 pt-1 not-md:pr-2'>Ordered by most recent ending date.</p>
-          {
-            former.map((x, i) => <ExperienceItem key={i} x={x} is={is} />)
-          }
-        </>
+        former.length
+        ?
+          <> 
+            <SectionHeader label='Former' />
+            <p className='-mt-6.5 text-end text-xs italic text-[#555] mb-1.5 pt-1 not-md:pr-2'>Ordered by most recent ending date.</p>
+            {
+              former.map((x, i) => <ExperienceItem key={i} x={x} is={is} />)
+            }
+          </>
+        : <div />
       }
     </div>
   )
@@ -93,8 +99,8 @@ function ExperienceItem({x, is}) {
         }
       </div>
       <div className='flex flex-col items-end mt-0.5 min-w-20 md:min-w-40'>
-        {!x.upcoming && <p className='text-sm hidden md:block'>{getFormattedDate(x.start, x.end, is)}</p> }
-        {!x.upcoming && <p className='block md:hidden'>{getFormattedDate(x.start, x.end, is, true)}</p> }
+        <p className='text-sm hidden md:block'>{getFormattedDate(x.start, x.end, is, x.upcoming)}</p>
+        <p className='block md:hidden'>{getFormattedDate(x.start, x.end, is, x.upcoming, true)}</p>
         <ExperienceBadge type={x.type} />
       </div>
     </div>
@@ -103,7 +109,7 @@ function ExperienceItem({x, is}) {
 }
 
 
-function getFormattedDate(start, end, is, yearOnly=false) {
+function getFormattedDate(start, end, is, upcoming, yearOnly=false) {
 
   const months = [ "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" ]
   let startStr;
@@ -120,7 +126,7 @@ function getFormattedDate(start, end, is, yearOnly=false) {
   if(yearOnly) startStr = startSegs[1];
   else startStr = `${months[parseInt(startSegs[0]) - 1]} ${startSegs[1]}`;
 
-  if(startStr === endStr) return startStr;
+  if(startStr === endStr || upcoming) return startStr;
   else return `${startStr} - ${endStr}`;
 }
 
