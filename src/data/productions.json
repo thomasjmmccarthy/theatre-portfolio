@@ -5,7 +5,9 @@
     "roles": ["Lighting Designer"],
     "writer": "Brad Birch",
     "director": "Kurban Kassam",
-    "designers": [],
+    "designers": [
+      { "role": "Sound Designer", "name": "Ben Farnham" }
+    ],
     "cast": [],
     "company": null,
     "venue": "slt",
@@ -23,10 +25,6 @@
     "company": "ksr",
     "venue": null,
     "year": "2026",
-    "photo": {
-      "coming_soon": true,
-      "ext": "png"
-    },
     "slug": "les-miserables"
   },
 
