@@ -6,6 +6,38 @@
     );
 
     export const galleryManifest = {
+  "acetone": [
+    {
+      "path": "/src/assets/galleries/acetone/01.jpg",
+      "w": 640,
+      "h": 480
+    },
+    {
+      "path": "/src/assets/galleries/acetone/02.jpeg",
+      "w": 1321,
+      "h": 990
+    },
+    {
+      "path": "/src/assets/galleries/acetone/03.jpg",
+      "w": 640,
+      "h": 480
+    },
+    {
+      "path": "/src/assets/galleries/acetone/04.jpg",
+      "w": 480,
+      "h": 640
+    },
+    {
+      "path": "/src/assets/galleries/acetone/05.jpg",
+      "w": 480,
+      "h": 640
+    },
+    {
+      "path": "/src/assets/galleries/acetone/06.jpeg",
+      "w": 1381,
+      "h": 1036
+    }
+  ],
   "archangels": [
     {
       "path": "/src/assets/galleries/archangels/01.jpg",
@@ -120,38 +152,6 @@
       "path": "/src/assets/galleries/carousel/05.jpeg",
       "w": 3684,
       "h": 4912
-    }
-  ],
-  "acetone": [
-    {
-      "path": "/src/assets/galleries/acetone/01.jpg",
-      "w": 640,
-      "h": 480
-    },
-    {
-      "path": "/src/assets/galleries/acetone/02.jpeg",
-      "w": 1321,
-      "h": 990
-    },
-    {
-      "path": "/src/assets/galleries/acetone/03.jpg",
-      "w": 640,
-      "h": 480
-    },
-    {
-      "path": "/src/assets/galleries/acetone/04.jpg",
-      "w": 480,
-      "h": 640
-    },
-    {
-      "path": "/src/assets/galleries/acetone/05.jpg",
-      "w": 480,
-      "h": 640
-    },
-    {
-      "path": "/src/assets/galleries/acetone/06.jpeg",
-      "w": 1381,
-      "h": 1036
     }
   ],
   "grave": [
