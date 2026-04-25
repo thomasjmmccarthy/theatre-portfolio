@@ -1,4 +1,5 @@
 import Logo from '../assets/logo/logo.png';
+import Instagram from  '../assets/icons/instagram.png';
 import { motion, useMotionTemplate, useReducedMotion, useScroll, useTransform } from 'motion/react';
 import { useTailwindScreen } from './TailwindScreen';
 import { useEffect, useState } from 'react';
@@ -31,6 +32,7 @@ export function Header() {
         [clip-path:polygon(0_0,100%_0,100%_85%,0_95%)]
         md:[clip-path:polygon(0_0,100%_0,100%_80%,0_100%)]
       '>
+
         {/* Background layer (parallax) */}
         <motion.div
           className='absolute inset-0 bg-cover bg-center pointer-events-none'
@@ -55,6 +57,11 @@ export function Header() {
         </div>
         
       </div>
+
+      <div onClick={() => {window.open('https://instagram.com/thomasmccarthy.creative', '_blank')}} className='group/instagram absolute top-5 right-5 w-10 bg-white/0 hover:bg-white opacity-50 hover:opacity-100 cursor-pointer p-2 rounded-full transition-all'>
+        <img className='w-full group-hover/instagram:brightness-0 transition-all' src={Instagram} />
+      </div>
+
       <p className='hidden md:block opacity-0 group-hover:opacity-100 duration-200 transition-all absolute right-4 bottom-3 text-xs text-[#555] select-none'>
         <i>Mirror Circle.</i> at the Drama Barn.<br />
         Photo: Ella Tomlin
