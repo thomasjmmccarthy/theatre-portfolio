@@ -201,48 +201,6 @@
       "h": 560
     }
   ],
-  "growing-pains": [
-    {
-      "path": "/src/assets/galleries/growing-pains/01.jpg",
-      "w": 6720,
-      "h": 4480
-    },
-    {
-      "path": "/src/assets/galleries/growing-pains/02.jpg",
-      "w": 722,
-      "h": 963
-    },
-    {
-      "path": "/src/assets/galleries/growing-pains/03.jpg",
-      "w": 6720,
-      "h": 4480
-    },
-    {
-      "path": "/src/assets/galleries/growing-pains/04.jpg",
-      "w": 2860,
-      "h": 3813
-    },
-    {
-      "path": "/src/assets/galleries/growing-pains/05.jpg",
-      "w": 2488,
-      "h": 3317
-    },
-    {
-      "path": "/src/assets/galleries/growing-pains/07.jpg",
-      "w": 2029,
-      "h": 2705
-    },
-    {
-      "path": "/src/assets/galleries/growing-pains/08.jpg",
-      "w": 1973,
-      "h": 2631
-    },
-    {
-      "path": "/src/assets/galleries/growing-pains/10.jpg",
-      "w": 6319,
-      "h": 4213
-    }
-  ],
   "great-gatsby": [
     {
       "path": "/src/assets/galleries/great-gatsby/01.jpg",
@@ -288,6 +246,48 @@
       "path": "/src/assets/galleries/great-gatsby/08.jpg",
       "w": 4288,
       "h": 2854
+    }
+  ],
+  "growing-pains": [
+    {
+      "path": "/src/assets/galleries/growing-pains/01.jpg",
+      "w": 6720,
+      "h": 4480
+    },
+    {
+      "path": "/src/assets/galleries/growing-pains/02.jpg",
+      "w": 722,
+      "h": 963
+    },
+    {
+      "path": "/src/assets/galleries/growing-pains/03.jpg",
+      "w": 6720,
+      "h": 4480
+    },
+    {
+      "path": "/src/assets/galleries/growing-pains/04.jpg",
+      "w": 2860,
+      "h": 3813
+    },
+    {
+      "path": "/src/assets/galleries/growing-pains/05.jpg",
+      "w": 2488,
+      "h": 3317
+    },
+    {
+      "path": "/src/assets/galleries/growing-pains/07.jpg",
+      "w": 2029,
+      "h": 2705
+    },
+    {
+      "path": "/src/assets/galleries/growing-pains/08.jpg",
+      "w": 1973,
+      "h": 2631
+    },
+    {
+      "path": "/src/assets/galleries/growing-pains/10.jpg",
+      "w": 6319,
+      "h": 4213
     }
   ],
   "im-not-here-right-now": [
