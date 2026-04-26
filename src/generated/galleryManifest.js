@@ -127,6 +127,53 @@
       "h": 963
     }
   ],
+  "black-mountain": [
+    {
+      "path": "/src/assets/galleries/black-mountain/01.jpg",
+      "w": 1697,
+      "h": 1273
+    },
+    {
+      "path": "/src/assets/galleries/black-mountain/02.jpg",
+      "w": 1643,
+      "h": 1232
+    },
+    {
+      "path": "/src/assets/galleries/black-mountain/03.jpg",
+      "w": 1305,
+      "h": 1740
+    },
+    {
+      "path": "/src/assets/galleries/black-mountain/04.jpg",
+      "w": 1586,
+      "h": 1189
+    },
+    {
+      "path": "/src/assets/galleries/black-mountain/05.jpg",
+      "w": 1024,
+      "h": 1365
+    },
+    {
+      "path": "/src/assets/galleries/black-mountain/06.jpg",
+      "w": 1820,
+      "h": 1365
+    },
+    {
+      "path": "/src/assets/galleries/black-mountain/07.jpg",
+      "w": 1820,
+      "h": 1365
+    },
+    {
+      "path": "/src/assets/galleries/black-mountain/08.jpg",
+      "w": 2048,
+      "h": 1365
+    },
+    {
+      "path": "/src/assets/galleries/black-mountain/09.jpg",
+      "w": 2048,
+      "h": 1365
+    }
+  ],
   "carousel": [
     {
       "path": "/src/assets/galleries/carousel/01.jpeg",
