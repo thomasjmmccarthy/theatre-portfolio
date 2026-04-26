@@ -167,7 +167,8 @@ function Row({ row, idx, isLast, allowThreeColumns }) {
   const { is } = useTailwindScreen();
 
   const gap = (
-    is('lg') ? 6
+    is('2xl') ? 6
+    : is('lg') ? 4
     : is('md') ? 2
     : 1
   )

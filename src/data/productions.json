@@ -1,6 +1,5 @@
 [
   {
-    "upcoming": true,
     "name": "Black Mountain",
     "roles": ["Lighting Designer"],
     "writer": "Brad Birch",
@@ -8,10 +7,15 @@
     "designers": [
       { "role": "Sound Designer", "name": "Ben Farnham" }
     ],
-    "cast": [],
+    "cast": [
+      "Gabriel Read", "Nat Demarchuk", "Milka Sholoya"
+    ],
     "company": null,
     "venue": "slt",
-    "year": "Apr 2026",
+    "year": "2026",
+    "photo": {
+      "credit": "Sophie Davies"
+    },
     "slug": "black-mountain"
   },
 
