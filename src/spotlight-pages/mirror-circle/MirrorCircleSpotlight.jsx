@@ -40,16 +40,16 @@ export function MirrorCircleSpotlight() {
       <SVHr />
 
       <SVTextSection>
-        <i>Mirror Circle.</i> was my <b>fifth and final original production with the University of York Drama Society</b>, bringing together 
+        <i>Mirror Circle.</i> was my <b>fourth and final original production with the University of York Drama Society</b>, bringing together 
         everything I had learnt over three years of writing, directing, and technical theatre. Exploring themes of generational 
         trauma and cyclical time, the production combined an abstract script with an expressionistic visual language, creating 
         a world where <b>memory, reality, and folklore coexist within a single, ever-changing space.</b>
       </SVTextSection>
 
       <SVImageSection label='The Forest' left src={sec_01} caption='Lauren Brine' credit='Ella Tomlin'>
-        From the outset, our production aimed to embrace it's axpressionistic elements. The 'junk pile in a forest' setting of the play was used 
+        From the outset, our production aimed to embrace its axpressionistic elements. The 'junk pile in a forest' setting of the play was used 
         as a liminal space, where lighting, sound, video, and set collaborated to embody each of the play's varying locations.<br/>
-        To increase the immersion and the sense of being lost in a forest, <b>the audience were sat along three sides of the stage</b>, enclosing the space 
+        To increase the immersion, and the sense of being lost in a forest, <b>the audience were sat along three sides of the stage</b>, enclosing the space 
         and putting them closer to the performance. While not playing their main roles, actors would often embody The Crows - <b>a masked, ensemble-style chorus that would 
         linger at the fringes of the stage,</b> sometimes even behind the audience.
       </SVImageSection>
