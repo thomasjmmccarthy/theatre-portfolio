@@ -33,3 +33,10 @@
   font-weight: normal;
   font-style: italic;
 }
+
+@font-face {
+  font-family: 'PaintBrush';
+  src: url('./assets/fonts/PaintBrushScript-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

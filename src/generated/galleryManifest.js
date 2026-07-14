@@ -174,33 +174,6 @@
       "h": 1365
     }
   ],
-  "carousel": [
-    {
-      "path": "/src/assets/galleries/carousel/01.jpeg",
-      "w": 6000,
-      "h": 4000
-    },
-    {
-      "path": "/src/assets/galleries/carousel/02.jpeg",
-      "w": 2837,
-      "h": 3783
-    },
-    {
-      "path": "/src/assets/galleries/carousel/03.jpeg",
-      "w": 4890,
-      "h": 3668
-    },
-    {
-      "path": "/src/assets/galleries/carousel/04.jpeg",
-      "w": 2602,
-      "h": 3469
-    },
-    {
-      "path": "/src/assets/galleries/carousel/05.jpeg",
-      "w": 3684,
-      "h": 4912
-    }
-  ],
   "grave": [
     {
       "path": "/src/assets/galleries/grave/01.png",
@@ -246,6 +219,33 @@
       "path": "/src/assets/galleries/grave/09.jpeg",
       "w": 747,
       "h": 560
+    }
+  ],
+  "carousel": [
+    {
+      "path": "/src/assets/galleries/carousel/01.jpeg",
+      "w": 6000,
+      "h": 4000
+    },
+    {
+      "path": "/src/assets/galleries/carousel/02.jpeg",
+      "w": 2837,
+      "h": 3783
+    },
+    {
+      "path": "/src/assets/galleries/carousel/03.jpeg",
+      "w": 4890,
+      "h": 3668
+    },
+    {
+      "path": "/src/assets/galleries/carousel/04.jpeg",
+      "w": 2602,
+      "h": 3469
+    },
+    {
+      "path": "/src/assets/galleries/carousel/05.jpeg",
+      "w": 3684,
+      "h": 4912
     }
   ],
   "great-gatsby": [

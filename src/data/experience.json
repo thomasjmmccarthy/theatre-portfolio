@@ -1,6 +1,17 @@
 [
 
   {
+    "upcoming": true,
+    "company": "Association of British Theatre Technicians",
+    "roles": ["Bronze Award Training"],
+    "type": "training",
+    "start": "07-2026",
+    "end": null,
+    "responsibilities": [],
+    "activities": null
+  },
+
+  {
     "company": "Sadler's Wells",
     "roles": ["Casual Theatre Technician (Lighting Bias)"],
     "type": "employment",
@@ -13,6 +24,7 @@
     ],
     "activities": null
   },
+
 
   {
     "company": "The Dark Slate Theatre Company",
@@ -29,6 +41,22 @@
     "activities": [
       "Managed, financed, and developed an immersive-style theatre production with 33 emerging artists at York’s leading black-box venue."
     ]
+  },
+
+
+  {
+    "company": "South London Theatre",
+    "roles": ["Production Technical Lead"],
+    "type": "appointment",
+    "start": "05-2026",
+    "end": null,
+    "responsibilities": [
+      "Recruit and train sound and lighting designers.",
+      "Support members to become competent in operating and programming the venue's lighting, sound, and video facilities.",
+      "Ensuring safety standards are met by technical teams and volunteers, and ensure that equipment is well maintained.",
+      "Maintain a written technical specification of the venue."
+    ],
+    "activities": null
   },
 
 
@@ -130,7 +158,7 @@
 
   {
     "company": "National Theatre",
-    "roles": ["Shadowing"],
+    "roles": ["NTLive Shadowing"],
     "type": "development",
     "start": "09-2022",
     "end": "09-2022",

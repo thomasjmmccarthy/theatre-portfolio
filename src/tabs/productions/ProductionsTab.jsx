@@ -21,7 +21,7 @@ export function ProductionsTab() {
 
   const filteredProductions = useMemo(() => {
 
-    if(!filter) return productions.filter((x) => !x.upcoming);
+    if(filter === 'credits') return productions.filter((x) => !x.upcoming);
 
     if(!(filter === 'other' || filter === 'upcoming')) {
       return productions.filter((x) => {
@@ -82,7 +82,7 @@ export function ProductionsTab() {
   }
 
   const [filterIconColour, filterColour] = 
-    filter === '' ? ['#ccc', '#ddd']
+    filter === 'credits' ? ['#ccc', '#ddd']
     : filter === 'upcoming' ? ['#e84393', '#fd79a8']
     : ['#00b894', '#00b894'];
 
@@ -96,7 +96,7 @@ export function ProductionsTab() {
         <div className='flex gap-2 items-center w-full md:w-auto'>
           <SlidersVertical size={18} style={{color: filterIconColour}} className='mb-0.5 transition-all' />
           <select value={filter} onChange={(e) => navigate(`/${e.target.value}`, {replace:true})} className='transition-all uppercase border-b-2 focus:outline-0 w-full md:w-auto' style={{borderColor: filterColour}}>
-            <option value=''>All</option>
+            <option value='credits'>All</option>
             { Object.keys(categories).map((c) => <FilterOption c={c} category={categories[c]} />) }
             <option value='other'>Other</option>
             { showUpcoming && <option disabled>──────────</option> }
@@ -129,7 +129,7 @@ function ProductionItem({p, filter, included}) {
   const [collapsed, setCollapsed] = useState(!included);
 
   const thumbnail = Thumbnail(p.slug, p.photo?.ext);
-  const hasGallery = getGallery(p.slug).length > 0;
+  const hasGallery = getGallery(p.slug).length > 0 && !p.upcoming;
   const writerDirector = (p.writer === p.director);
 
   const { is } = useTailwindScreen();
@@ -197,7 +197,7 @@ function ProductionItem({p, filter, included}) {
           </div>
         </div>
         <div className='text-end mt-0.5 md:-mt-1 absolute right-0 top-2.5 md:relative md:top-0 md:h-full'>
-          <p className='text-xs md:text-sm'>{p.company && companies[p.company].name} {p.company && p.venue && 'at'} {p.venue && venues[p.venue].name} ({p.year})</p>
+          <p className='text-xs md:text-sm'>{(p.company && companies[p.company]) && companies[p.company].name} {p.company && p.venue && 'at'} {p.venue && venues[p.venue].name} ({p.year})</p>
         </div>
       </div>
       {

@@ -3,8 +3,9 @@ import Instagram from  '../assets/icons/instagram.png';
 import { motion, useMotionTemplate, useReducedMotion, useScroll, useTransform } from 'motion/react';
 import { useTailwindScreen } from './TailwindScreen';
 import { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
-export function Header() {
+export function Header({handleExit}) {
 
   const [imageLoaded, setImageLoaded] = useState(false);
 
@@ -47,12 +48,10 @@ export function Header() {
         />
 
         <div className='relative h-full w-full flex justify-center items-center'>
-          <motion.img
-            className='w-[80%] max-w-100'
+          <img
+            className='w-[80%] max-w-100 cursor-pointer'
             src={Logo}
-            initial={{ opacity: 0, scale: 0.8, filter: 'blur(5px)' }}
-            animate={{ opacity: 1, scale: 1, filter: 'blur(0)' }}
-            transition={{ duration: 1, delay: 0.15, type: 'spring' }}
+            onClick={handleExit}
           />
         </div>
         

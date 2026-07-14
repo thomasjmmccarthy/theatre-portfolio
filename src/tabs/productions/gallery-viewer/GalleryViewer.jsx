@@ -41,9 +41,9 @@ export function GalleryViewer() {
         }
       });
       if(production) setP(production);
-      else navigate('/');
+      else navigate('/credits');
     }
-    else navigate('/');
+    else navigate('/credits');
   }, [pathname]);
 
 
@@ -81,7 +81,7 @@ export function GalleryViewer() {
             <ArrowLeftToLine className='bg-white p-2 w-10 h-10 rounded-full group-hover:drop-shadow-lg transition-all cursor-pointer border-2 border-white hover:border-[#222]' size={20} />
             <p className='opacity-0 group-hover:opacity-100 transition-all text-sm select-none'>
               {
-                redirected ? `${redirected === 'other' ? 'Other' : categories[redirected].name} Credits` : 'Credits'
+                redirected ? `${redirected === 'other' ? 'Other' : categories[redirected] ? categories[redirected].name : ''} Credits` : 'Credits'
               }
             </p>
           </div>
