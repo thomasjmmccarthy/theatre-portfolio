@@ -20,7 +20,7 @@ export function SpotlightNav({active, enteringPortfolio, handleNext, handlePrevi
           className='absolute w-full flex flex-col items-center mb-8 text-white tracking-widest'
         >
 
-          <div className='w-full max-w-200 flex justify-center gap-12'>
+          <div className='w-full max-w-200 flex justify-center gap-8 lg:gap-12'>
             <div onClick={handlePrevious} className='select-none flex items-center justify-start gap-4 text-sm md:w-24 cursor-pointer brightness-100 hover:brightness-80 transition-all'>
               <MoveLeft size={20} />
               <p className='not-md:hidden'>LAST</p>
