@@ -165,25 +165,25 @@ export function SpotlightPage() {
         ? <AnimatePresence mode='wait'>
             <motion.div
               key={production.slug} 
-              className='absolute top-1/2 -translate-y-1/3 w-full px-10'
+              className='absolute top-1/2 -translate-y-3/8 lg:-translate-y-1/3 w-full px-10'
               initial={{opacity: 0}}
               animate={{opacity: 1}}
               exit={{opacity: 0}}
               transition={{duration: 0.4, delay: 0.2}}
             >
-              <div className='text-white tracking-widest ml-[5%] md:ml-[10%]'>
+              <div className='text-white tracking-widest md:ml-[10%]'>
                 <p className='opacity-80'>now in the spotlight</p>
-                <h1 className='my-4 uppercase font-bold tracking-[10px] text-3xl md:text-4xl'>{production.name}</h1>
+                <h1 className='lg:my-4 mb-2 uppercase font-bold tracking-widest lg:tracking-[10px] text-3xl md:text-4xl'>{production.name}</h1>
                 <hr className='w-20 mb-4 opacity-60' />
-                <p><span className='opacity-80'>{venueOrCompany} •</span> {production.upcoming ? <span className='text-[#e74c3c] font-bold'>UPCOMING</span> : <span className='opacity-80'>{production.year}</span>}</p>
-                <p className='italic opacity-80'>
+                <p className='not-lg:text-sm'><span className='opacity-80'>{venueOrCompany} •</span> {production.upcoming ? <span className='text-[#e74c3c] font-bold'>UPCOMING</span> : <span className='opacity-80'>{production.year}</span>}</p>
+                <p className='italic opacity-80 not-lg:text-sm'>
                   {
                     production.roles.map((r, i) => {
                       return `${r}${i === production.roles.length-1 ? '' : ' • '}`
                     })
                   }
                 </p>
-                <p onClick={() => handleSeeMore(production)} className='text-sm text-[#e74c3c] mt-5 w-20 opacity-90 hover:underline hover:opacity-100 transition-all cursor-pointer'>{(createSpotlightEntry(production.slug).link) ? createSpotlightEntry(production.slug).link_label : 'see more'}</p>
+                <p onClick={() => handleSeeMore(production)} className='not-lg:px-4 not-lg:py-2 not-lg:border not-lg:border-[#e74c3c] flex not-lg:justify-center text-sm text-[#e74c3c] mt-5 w-25 lg:w-20 opacity-90 hover:underline hover:opacity-100 transition-all cursor-pointer'>{(createSpotlightEntry(production.slug).link) ? createSpotlightEntry(production.slug).link_label : 'see more'}</p>
               </div>
             </motion.div>
           </AnimatePresence>

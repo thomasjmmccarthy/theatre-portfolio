@@ -9,7 +9,7 @@ export function SpotlightHeader({enteringPortfolio}) {
 
   return (
     <div 
-      style={{height: (!is('lg') || enteringPortfolio) ? '320px' : '240px'}}
+      style={{height: (enteringPortfolio) ? '320px' : is('lg') ? '240px' : '280px'}}
       className='w-full relative z-100 group transition-all duration-500'
     >
       <div className='relative h-full w-full overflow-hidden'>
