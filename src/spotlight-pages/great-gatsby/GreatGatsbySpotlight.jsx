@@ -8,7 +8,7 @@ import { SVTextSection } from "../../pages/spotlight-viewer/components/SVTextSec
 import { SVTitle } from "../../pages/spotlight-viewer/components/SVTitle";
 import { createSpotlightEntry } from "../../pages/spotlight-viewer/createSpotlightEntry";
 
-import corner_header from './assets/corner-header.jpg';
+import corner_header from './assets/corner-header.JPG';
 import sec_01 from './assets/sec-01.png';
 import sec_02 from './assets/sec-02.png';
 import sec_03 from './assets/sec-03.png';
