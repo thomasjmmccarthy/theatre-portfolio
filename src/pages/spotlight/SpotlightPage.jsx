@@ -183,7 +183,7 @@ export function SpotlightPage() {
                     })
                   }
                 </p>
-                <p onClick={() => handleSeeMore(production)} className='not-lg:px-4 not-lg:py-2 not-lg:border not-lg:border-[#e74c3c] flex not-lg:justify-center text-sm text-[#e74c3c] mt-5 w-25 lg:w-20 opacity-90 hover:underline hover:opacity-100 transition-all cursor-pointer'>{(createSpotlightEntry(production.slug).link) ? createSpotlightEntry(production.slug).link_label : 'see more'}</p>
+                <p onClick={() => handleSeeMore(production)} className='not-lg:px-4 not-lg:py-2 not-lg:border not-lg:border-[#e74c3c] flex not-lg:justify-center text-sm text-[#e74c3c] mt-5 w-28 lg:w-20 opacity-90 hover:underline hover:opacity-100 transition-all cursor-pointer'>{(createSpotlightEntry(production.slug).link) ? createSpotlightEntry(production.slug).link_label : 'see more'}</p>
               </div>
             </motion.div>
           </AnimatePresence>
