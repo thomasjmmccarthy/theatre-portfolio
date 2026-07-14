@@ -295,6 +295,53 @@
       "h": 2854
     }
   ],
+  "grave": [
+    {
+      "path": "/src/assets/galleries/grave/01.png",
+      "w": 704,
+      "h": 503
+    },
+    {
+      "path": "/src/assets/galleries/grave/02.png",
+      "w": 1280,
+      "h": 963
+    },
+    {
+      "path": "/src/assets/galleries/grave/03.png",
+      "w": 722,
+      "h": 962
+    },
+    {
+      "path": "/src/assets/galleries/grave/04.png",
+      "w": 722,
+      "h": 962
+    },
+    {
+      "path": "/src/assets/galleries/grave/05.png",
+      "w": 1280,
+      "h": 962
+    },
+    {
+      "path": "/src/assets/galleries/grave/06.png",
+      "w": 1280,
+      "h": 962
+    },
+    {
+      "path": "/src/assets/galleries/grave/07.png",
+      "w": 722,
+      "h": 962
+    },
+    {
+      "path": "/src/assets/galleries/grave/08.png",
+      "w": 728,
+      "h": 644
+    },
+    {
+      "path": "/src/assets/galleries/grave/09.jpeg",
+      "w": 747,
+      "h": 560
+    }
+  ],
   "growing-pains": [
     {
       "path": "/src/assets/galleries/growing-pains/01.jpg",
