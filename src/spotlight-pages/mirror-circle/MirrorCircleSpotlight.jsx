@@ -58,7 +58,7 @@ export function MirrorCircleSpotlight() {
         Mirror Circle, a multi-level marketing company, features prominently within the world of the play, and so extensive research went in to accurately depicting the <b>manipulation and 
         indoctrination tactics deployed by real-life MLMs.</b> The similarity of these techniques to those used by cults became the inspiration behind <i>The Inner Circle</i>. This group of 
         cultish die-hards lies at the heart of the company, led-in part by the charismatic social-chameleon, Zephyr (<i>Mariam Nachif</i>). Zephyr was modelled off of the traditional 
-        psycopath archetype, going so far as to <b>wear red-tinted sunglasses to hide the lack of expression in their eyes.</b><br/>
+        psychopath archetype, going so far as to <b>wear red-tinted sunglasses to hide the lack of expression in their eyes.</b><br/>
         Meanwhile the other characters that join Mirror Circle, Eve (<i>Lauren Brine</i>) and Oakley (<i>Lydia Hughes</i>), show the reality of these organisations - the victims at the bottom, making next to 
         nothing off of the promise that <b>their devotion to the company may, one day, be recognised.</b>
       </SVImageSection>

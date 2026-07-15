@@ -38,6 +38,48 @@
       "h": 1036
     }
   ],
+  "archangels": [
+    {
+      "path": "/src/assets/galleries/archangels/01.jpg",
+      "w": 3180,
+      "h": 2385
+    },
+    {
+      "path": "/src/assets/galleries/archangels/02.jpg",
+      "w": 3840,
+      "h": 2560
+    },
+    {
+      "path": "/src/assets/galleries/archangels/03.jpg",
+      "w": 3840,
+      "h": 2560
+    },
+    {
+      "path": "/src/assets/galleries/archangels/04.jpg",
+      "w": 1644,
+      "h": 2192
+    },
+    {
+      "path": "/src/assets/galleries/archangels/05.jpg",
+      "w": 3840,
+      "h": 2560
+    },
+    {
+      "path": "/src/assets/galleries/archangels/06.jpg",
+      "w": 1920,
+      "h": 2560
+    },
+    {
+      "path": "/src/assets/galleries/archangels/07.jpg",
+      "w": 3413,
+      "h": 2560
+    },
+    {
+      "path": "/src/assets/galleries/archangels/08.jpg",
+      "w": 3840,
+      "h": 2560
+    }
+  ],
   "beautiful-thing": [
     {
       "path": "/src/assets/galleries/beautiful-thing/01.jpg",
@@ -83,48 +125,6 @@
       "path": "/src/assets/galleries/beautiful-thing/09.png",
       "w": 1280,
       "h": 963
-    }
-  ],
-  "archangels": [
-    {
-      "path": "/src/assets/galleries/archangels/01.jpg",
-      "w": 3180,
-      "h": 2385
-    },
-    {
-      "path": "/src/assets/galleries/archangels/02.jpg",
-      "w": 3840,
-      "h": 2560
-    },
-    {
-      "path": "/src/assets/galleries/archangels/03.jpg",
-      "w": 3840,
-      "h": 2560
-    },
-    {
-      "path": "/src/assets/galleries/archangels/04.jpg",
-      "w": 1644,
-      "h": 2192
-    },
-    {
-      "path": "/src/assets/galleries/archangels/05.jpg",
-      "w": 3840,
-      "h": 2560
-    },
-    {
-      "path": "/src/assets/galleries/archangels/06.jpg",
-      "w": 1920,
-      "h": 2560
-    },
-    {
-      "path": "/src/assets/galleries/archangels/07.jpg",
-      "w": 3413,
-      "h": 2560
-    },
-    {
-      "path": "/src/assets/galleries/archangels/08.jpg",
-      "w": 3840,
-      "h": 2560
     }
   ],
   "black-mountain": [
@@ -364,53 +364,6 @@
       "h": 4482
     }
   ],
-  "mirror-circle": [
-    {
-      "path": "/src/assets/galleries/mirror-circle/01_opening.jpg",
-      "w": 3967,
-      "h": 2641
-    },
-    {
-      "path": "/src/assets/galleries/mirror-circle/02_doe.jpg",
-      "w": 2037,
-      "h": 2489
-    },
-    {
-      "path": "/src/assets/galleries/mirror-circle/03_station.jpg",
-      "w": 1222,
-      "h": 919
-    },
-    {
-      "path": "/src/assets/galleries/mirror-circle/04_zephyr.jpg",
-      "w": 2854,
-      "h": 4288
-    },
-    {
-      "path": "/src/assets/galleries/mirror-circle/05_blake.jpg",
-      "w": 2854,
-      "h": 4288
-    },
-    {
-      "path": "/src/assets/galleries/mirror-circle/08_tracker.jpg",
-      "w": 2854,
-      "h": 4288
-    },
-    {
-      "path": "/src/assets/galleries/mirror-circle/09_stab.jpg",
-      "w": 4288,
-      "h": 2854
-    },
-    {
-      "path": "/src/assets/galleries/mirror-circle/10.jpg",
-      "w": 1280,
-      "h": 962
-    },
-    {
-      "path": "/src/assets/galleries/mirror-circle/11.jpg",
-      "w": 722,
-      "h": 962
-    }
-  ],
   "unspoken-dark-slate": [
     {
       "path": "/src/assets/galleries/unspoken-dark-slate/01.JPG",
@@ -461,6 +414,53 @@
       "path": "/src/assets/galleries/unspoken-dark-slate/12.JPG",
       "w": 1920,
       "h": 2560
+    }
+  ],
+  "mirror-circle": [
+    {
+      "path": "/src/assets/galleries/mirror-circle/01_opening.jpg",
+      "w": 3967,
+      "h": 2641
+    },
+    {
+      "path": "/src/assets/galleries/mirror-circle/02_doe.jpg",
+      "w": 2037,
+      "h": 2489
+    },
+    {
+      "path": "/src/assets/galleries/mirror-circle/03_station.jpg",
+      "w": 1222,
+      "h": 919
+    },
+    {
+      "path": "/src/assets/galleries/mirror-circle/04_zephyr.jpg",
+      "w": 2854,
+      "h": 4288
+    },
+    {
+      "path": "/src/assets/galleries/mirror-circle/05_blake.jpg",
+      "w": 2854,
+      "h": 4288
+    },
+    {
+      "path": "/src/assets/galleries/mirror-circle/08_tracker.jpg",
+      "w": 2854,
+      "h": 4288
+    },
+    {
+      "path": "/src/assets/galleries/mirror-circle/09_stab.jpg",
+      "w": 4288,
+      "h": 2854
+    },
+    {
+      "path": "/src/assets/galleries/mirror-circle/10.jpg",
+      "w": 1280,
+      "h": 962
+    },
+    {
+      "path": "/src/assets/galleries/mirror-circle/11.jpg",
+      "w": 722,
+      "h": 962
     }
   ]
 };
