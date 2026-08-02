@@ -1,17 +1,6 @@
 [
 
   {
-    "upcoming": true,
-    "company": "Association of British Theatre Technicians",
-    "roles": ["Bronze Award Training"],
-    "type": "training",
-    "start": "07-2026",
-    "end": null,
-    "responsibilities": [],
-    "activities": null
-  },
-
-  {
     "company": "Sadler's Wells",
     "roles": ["Casual Theatre Technician (Lighting Bias)"],
     "type": "employment",
@@ -22,7 +11,9 @@
       "Supporting performances, ensuring safe, efficient running of shows.",
       "Working collaboratively with visiting companies and in-house teams to deliver high production standards."
     ],
-    "activities": null
+    "activities": [
+      "Stage LX — Matthew Bourne's 'The Car Man' (Aug 2026)"
+    ]
   },
 
 
@@ -57,6 +48,19 @@
       "Maintain a written technical specification of the venue."
     ],
     "activities": null
+  },
+
+
+  {
+    "company": "ABTT",
+    "roles": ["Bronze Award"],
+    "type": "training",
+    "start": "07-2026",
+    "end": "07-2026",
+    "override_responsibilities": true,
+    "responsibilities": [
+      "Five day accredited course with the Association of British Theatre Technicians, covering health and safety, knots, flying, electrical fundamentals and temporary access systems."
+    ]
   },
 
 

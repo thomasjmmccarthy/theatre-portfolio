@@ -178,7 +178,7 @@ function ExperienceBadge({type}) {
   return (
     <div 
       style={{backgroundColor: colour}}
-      className='relative group flex items-center text-xs font-bold uppercase gap-2 px-2 py-1 rounded-full h-8 md:hover:max-w-100 max-w-8 transition-all duration-500 ease-in-out overflow-hidden'
+      className='relative shrink-0 group flex items-center text-xs font-bold uppercase gap-2 px-2 py-1 rounded-full h-8 md:hover:max-w-100 max-w-8 transition-all duration-500 ease-in-out overflow-hidden'
     >
       <div>{icon}</div>
       <p className='text-nowrap pr-1'>{text}</p>
