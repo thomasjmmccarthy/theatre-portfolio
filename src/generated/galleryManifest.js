@@ -6,38 +6,6 @@
     );
 
     export const galleryManifest = {
-  "acetone": [
-    {
-      "path": "/src/assets/galleries/acetone/01.jpg",
-      "w": 640,
-      "h": 480
-    },
-    {
-      "path": "/src/assets/galleries/acetone/02.jpeg",
-      "w": 1321,
-      "h": 990
-    },
-    {
-      "path": "/src/assets/galleries/acetone/03.jpg",
-      "w": 640,
-      "h": 480
-    },
-    {
-      "path": "/src/assets/galleries/acetone/04.jpg",
-      "w": 480,
-      "h": 640
-    },
-    {
-      "path": "/src/assets/galleries/acetone/05.jpg",
-      "w": 480,
-      "h": 640
-    },
-    {
-      "path": "/src/assets/galleries/acetone/06.jpeg",
-      "w": 1381,
-      "h": 1036
-    }
-  ],
   "archangels": [
     {
       "path": "/src/assets/galleries/archangels/01.jpg",
@@ -78,6 +46,38 @@
       "path": "/src/assets/galleries/archangels/08.jpg",
       "w": 3840,
       "h": 2560
+    }
+  ],
+  "acetone": [
+    {
+      "path": "/src/assets/galleries/acetone/01.jpg",
+      "w": 640,
+      "h": 480
+    },
+    {
+      "path": "/src/assets/galleries/acetone/02.jpeg",
+      "w": 1321,
+      "h": 990
+    },
+    {
+      "path": "/src/assets/galleries/acetone/03.jpg",
+      "w": 640,
+      "h": 480
+    },
+    {
+      "path": "/src/assets/galleries/acetone/04.jpg",
+      "w": 480,
+      "h": 640
+    },
+    {
+      "path": "/src/assets/galleries/acetone/05.jpg",
+      "w": 480,
+      "h": 640
+    },
+    {
+      "path": "/src/assets/galleries/acetone/06.jpeg",
+      "w": 1381,
+      "h": 1036
     }
   ],
   "beautiful-thing": [
@@ -364,6 +364,53 @@
       "h": 4482
     }
   ],
+  "mirror-circle": [
+    {
+      "path": "/src/assets/galleries/mirror-circle/01_opening.jpg",
+      "w": 3967,
+      "h": 2641
+    },
+    {
+      "path": "/src/assets/galleries/mirror-circle/02_doe.jpg",
+      "w": 2037,
+      "h": 2489
+    },
+    {
+      "path": "/src/assets/galleries/mirror-circle/03_station.jpg",
+      "w": 1222,
+      "h": 919
+    },
+    {
+      "path": "/src/assets/galleries/mirror-circle/04_zephyr.jpg",
+      "w": 2854,
+      "h": 4288
+    },
+    {
+      "path": "/src/assets/galleries/mirror-circle/05_blake.jpg",
+      "w": 2854,
+      "h": 4288
+    },
+    {
+      "path": "/src/assets/galleries/mirror-circle/08_tracker.jpg",
+      "w": 2854,
+      "h": 4288
+    },
+    {
+      "path": "/src/assets/galleries/mirror-circle/09_stab.jpg",
+      "w": 4288,
+      "h": 2854
+    },
+    {
+      "path": "/src/assets/galleries/mirror-circle/10.jpg",
+      "w": 1280,
+      "h": 962
+    },
+    {
+      "path": "/src/assets/galleries/mirror-circle/11.jpg",
+      "w": 722,
+      "h": 962
+    }
+  ],
   "unspoken-dark-slate": [
     {
       "path": "/src/assets/galleries/unspoken-dark-slate/01.JPG",
@@ -414,53 +461,6 @@
       "path": "/src/assets/galleries/unspoken-dark-slate/12.JPG",
       "w": 1920,
       "h": 2560
-    }
-  ],
-  "mirror-circle": [
-    {
-      "path": "/src/assets/galleries/mirror-circle/01_opening.jpg",
-      "w": 3967,
-      "h": 2641
-    },
-    {
-      "path": "/src/assets/galleries/mirror-circle/02_doe.jpg",
-      "w": 2037,
-      "h": 2489
-    },
-    {
-      "path": "/src/assets/galleries/mirror-circle/03_station.jpg",
-      "w": 1222,
-      "h": 919
-    },
-    {
-      "path": "/src/assets/galleries/mirror-circle/04_zephyr.jpg",
-      "w": 2854,
-      "h": 4288
-    },
-    {
-      "path": "/src/assets/galleries/mirror-circle/05_blake.jpg",
-      "w": 2854,
-      "h": 4288
-    },
-    {
-      "path": "/src/assets/galleries/mirror-circle/08_tracker.jpg",
-      "w": 2854,
-      "h": 4288
-    },
-    {
-      "path": "/src/assets/galleries/mirror-circle/09_stab.jpg",
-      "w": 4288,
-      "h": 2854
-    },
-    {
-      "path": "/src/assets/galleries/mirror-circle/10.jpg",
-      "w": 1280,
-      "h": 962
-    },
-    {
-      "path": "/src/assets/galleries/mirror-circle/11.jpg",
-      "w": 722,
-      "h": 962
     }
   ]
 };

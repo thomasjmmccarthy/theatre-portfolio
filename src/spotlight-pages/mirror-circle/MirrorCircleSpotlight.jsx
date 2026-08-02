@@ -47,10 +47,10 @@ export function MirrorCircleSpotlight() {
       </SVTextSection>
 
       <SVImageSection label='The Forest' left src={sec_01} caption='Lauren Brine' credit='Ella Tomlin'>
-        From the outset, our production aimed to embrace its axpressionistic elements. The 'junk pile in a forest' setting of the play was used 
+        From the outset, our production aimed to embrace its expressionistic elements. The 'junk pile in a forest' setting of the play was used 
         as a liminal space, where lighting, sound, video, and set collaborated to embody each of the play's varying locations.<br/>
         To increase the immersion, and the sense of being lost in a forest, <b>the audience were sat along three sides of the stage</b>, enclosing the space 
-        and putting them closer to the performance. While not playing their main roles, actors would often embody The Crows - <b>a masked, ensemble-style chorus that would 
+        and putting them closer to the performance. When they weren't playing their main roles, actors would often embody The Crows - <b>a masked, ensemble-style chorus that would 
         linger at the fringes of the stage,</b> sometimes even behind the audience.
       </SVImageSection>
 
