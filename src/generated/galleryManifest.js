@@ -6,6 +6,38 @@
     );
 
     export const galleryManifest = {
+  "acetone": [
+    {
+      "path": "/src/assets/galleries/acetone/01.jpg",
+      "w": 640,
+      "h": 480
+    },
+    {
+      "path": "/src/assets/galleries/acetone/02.jpeg",
+      "w": 1321,
+      "h": 990
+    },
+    {
+      "path": "/src/assets/galleries/acetone/03.jpg",
+      "w": 640,
+      "h": 480
+    },
+    {
+      "path": "/src/assets/galleries/acetone/04.jpg",
+      "w": 480,
+      "h": 640
+    },
+    {
+      "path": "/src/assets/galleries/acetone/05.jpg",
+      "w": 480,
+      "h": 640
+    },
+    {
+      "path": "/src/assets/galleries/acetone/06.jpeg",
+      "w": 1381,
+      "h": 1036
+    }
+  ],
   "archangels": [
     {
       "path": "/src/assets/galleries/archangels/01.jpg",
@@ -46,38 +78,6 @@
       "path": "/src/assets/galleries/archangels/08.jpg",
       "w": 3840,
       "h": 2560
-    }
-  ],
-  "acetone": [
-    {
-      "path": "/src/assets/galleries/acetone/01.jpg",
-      "w": 640,
-      "h": 480
-    },
-    {
-      "path": "/src/assets/galleries/acetone/02.jpeg",
-      "w": 1321,
-      "h": 990
-    },
-    {
-      "path": "/src/assets/galleries/acetone/03.jpg",
-      "w": 640,
-      "h": 480
-    },
-    {
-      "path": "/src/assets/galleries/acetone/04.jpg",
-      "w": 480,
-      "h": 640
-    },
-    {
-      "path": "/src/assets/galleries/acetone/05.jpg",
-      "w": 480,
-      "h": 640
-    },
-    {
-      "path": "/src/assets/galleries/acetone/06.jpeg",
-      "w": 1381,
-      "h": 1036
     }
   ],
   "beautiful-thing": [
@@ -295,6 +295,33 @@
       "h": 2854
     }
   ],
+  "im-not-here-right-now": [
+    {
+      "path": "/src/assets/galleries/im-not-here-right-now/01.jpg",
+      "w": 4000,
+      "h": 6000
+    },
+    {
+      "path": "/src/assets/galleries/im-not-here-right-now/02.png",
+      "w": 1124,
+      "h": 843
+    },
+    {
+      "path": "/src/assets/galleries/im-not-here-right-now/03.png",
+      "w": 1280,
+      "h": 847
+    },
+    {
+      "path": "/src/assets/galleries/im-not-here-right-now/04.jpg",
+      "w": 3591,
+      "h": 4789
+    },
+    {
+      "path": "/src/assets/galleries/im-not-here-right-now/05.jpg",
+      "w": 3362,
+      "h": 4482
+    }
+  ],
   "growing-pains": [
     {
       "path": "/src/assets/galleries/growing-pains/01.jpg",
@@ -335,33 +362,6 @@
       "path": "/src/assets/galleries/growing-pains/10.jpg",
       "w": 6319,
       "h": 4213
-    }
-  ],
-  "im-not-here-right-now": [
-    {
-      "path": "/src/assets/galleries/im-not-here-right-now/01.jpg",
-      "w": 4000,
-      "h": 6000
-    },
-    {
-      "path": "/src/assets/galleries/im-not-here-right-now/02.png",
-      "w": 1124,
-      "h": 843
-    },
-    {
-      "path": "/src/assets/galleries/im-not-here-right-now/03.png",
-      "w": 1280,
-      "h": 847
-    },
-    {
-      "path": "/src/assets/galleries/im-not-here-right-now/04.jpg",
-      "w": 3591,
-      "h": 4789
-    },
-    {
-      "path": "/src/assets/galleries/im-not-here-right-now/05.jpg",
-      "w": 3362,
-      "h": 4482
     }
   ],
   "mirror-circle": [
