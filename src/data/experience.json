@@ -1,6 +1,16 @@
 [
 
   {
+    "upcoming": true,
+    "company": "Oxford School of Drama",
+    "roles": ["Lighting Technician - 'Wanton' @ Southwark Playhouse"],
+    "type": "contract",
+    "start": "08-2026",
+    "end": null,
+    "responsibilities": []
+  },
+
+  {
     "company": "Sadler's Wells",
     "roles": ["Casual Theatre Technician (Lighting Bias)"],
     "type": "employment",

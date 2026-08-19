@@ -1,5 +1,18 @@
 [
   {
+    "upcoming": true,
+    "name": "Things I Know to Be True",
+    "roles": ["Lighting Designer"],
+    "writer": "Andrew Bovell",
+    "director": "Stephen Hayward",
+    "company": null,
+    "venue": "slt",
+    "year": "2026",
+    "photo": null,
+    "slug": "things-i-know-to-be-true"
+  },
+
+  {
     "name": "Black Mountain",
     "roles": ["Lighting Designer"],
     "writer": "Brad Birch",
