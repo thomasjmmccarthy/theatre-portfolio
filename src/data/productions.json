@@ -1,6 +1,21 @@
 [
   {
     "upcoming": true,
+    "name": "Black Mountain",
+    "roles": ["Lighting Designer"],
+    "writer": "Brad Birch",
+    "director": "Kurban Kassam",
+    "designers": [
+      { "role": "Sound Designer", "name": "Ben Farnham" }
+    ],
+    "company": null,
+    "venue": "jack-studio-theatre",
+    "year": "2027",
+    "slug": "black-mountain-2"
+  },
+  
+  {
+    "upcoming": true,
     "name": "Things I Know to Be True",
     "roles": ["Lighting Designer"],
     "writer": "Andrew Bovell",
