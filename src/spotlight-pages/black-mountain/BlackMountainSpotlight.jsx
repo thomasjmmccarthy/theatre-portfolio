@@ -38,7 +38,7 @@ export function BlackMountainSpotlight() {
       <SVDescription s={s} />
       <SVHr />
 
-      <SVAnnouncement>'Black Mountain' returns to the stage in February 2027</SVAnnouncement>
+      <SVAnnouncement label='See upcoming' href='https://theatre.thomasmccarthy.net/upcoming'>'Black Mountain' returns to the stage in February 2027</SVAnnouncement>
 
       <SVTextSection>
         <i>Black Mountain</i> was my second production at the South London Theatre - an amateur performance venue in West Norwood.

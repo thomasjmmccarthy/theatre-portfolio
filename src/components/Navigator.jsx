@@ -1,4 +1,5 @@
 import { useLocation, useNavigate } from "react-router-dom"
+import RoleCategories from '../data/role-categories.json';
 
 export function Navigator() {
 
@@ -7,7 +8,7 @@ export function Navigator() {
 
   return (
     <div className='w-[90%] max-w-90 border-b-2 flex mb-16 mt-3'>
-      <NavOption label='Credits'      to='/credits'     active={pathname.startsWith('/credits')}  navigate={navigate} />
+      <NavOption label='Credits'      to='/credits'     active={isCreditTab(pathname)}  navigate={navigate} />
       <NavOption label='Experience'   to='/experience'  active={pathname.startsWith('/experience')}   navigate={navigate} />
       <NavOption label='About'        to='/about'       active={pathname.startsWith('/about')}   navigate={navigate} />
     </div>
@@ -32,4 +33,11 @@ function NavOption({label, to, active, navigate}) {
     </div>
   )
 
+}
+
+
+function isCreditTab(pathname) {
+  const pathEnd = pathname.split('/').pop();
+  const pages = [...Object.keys(RoleCategories), 'credits', 'other', 'upcoming']
+  return pages.includes(pathEnd);
 }
