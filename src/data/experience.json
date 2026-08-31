@@ -1,13 +1,14 @@
 [
 
   {
-    "upcoming": true,
     "company": "Oxford School of Drama",
-    "roles": ["Lighting Technician - 'Wanton' @ Southwark Playhouse"],
+    "roles": ["Lighting Technician"],
     "type": "contract",
     "start": "08-2026",
-    "end": null,
-    "responsibilities": []
+    "end": "08-2026",
+    "responsibilities": [
+      "Aiding with the get-in and get-out for 'Wanton' at Southwark Playhouse Borough as part of the LX crew."
+    ]
   },
 
   {
