@@ -14,6 +14,7 @@ import { SpotlightViewerLayout } from './pages/spotlight-viewer/SpotlightViewerL
 import { BlackMountainSpotlight } from './spotlight-pages/black-mountain/BlackMountainSpotlight';
 import { GreatGatsbySpotlight } from './spotlight-pages/great-gatsby/GreatGatsbySpotlight';
 import { MirrorCircleSpotlight } from './spotlight-pages/mirror-circle/MirrorCircleSpotlight';
+import { BlackMountainJSSpotlight } from './spotlight-pages/black-mountain/BlackMountainJSSpotlight';
 
 function App() {
 
@@ -27,7 +28,7 @@ function App() {
 
         <Route element={<SpotlightViewerLayout />} >
           
-          <Route path='/s/black-mountain' element={<BlackMountainSpotlight />} />
+          <Route path='/s/black-mountain-js' element={<BlackMountainJSSpotlight />} />
           <Route path='/s/great-gatsby'   element={<GreatGatsbySpotlight />} />
           <Route path='/s/mirror-circle'  element={<MirrorCircleSpotlight />} />
 

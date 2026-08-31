@@ -1,4 +1,5 @@
 [
+  
   {
     "upcoming": true,
     "name": "Black Mountain",
@@ -11,9 +12,9 @@
     "company": null,
     "venue": "jack-studio-theatre",
     "year": "2027",
-    "slug": "black-mountain-2"
+    "slug": "black-mountain-js"
   },
-  
+
   {
     "upcoming": true,
     "name": "Things I Know to Be True",

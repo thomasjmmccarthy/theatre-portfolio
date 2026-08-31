@@ -3,7 +3,7 @@
 export function SVAnnouncement({label=null, href=null, children}) {
   return (
     <div className='w-full bg-[#e74c3c] p-2 px-4 rounded-sm flex not-md:flex-col items-center justify-center md:gap-8 gap-2'>
-      <p className={`lg:text-xl text-black uppercase font-bold tracking-widest leading-6 ${(label && href) ? 'text-start' : 'text-center'}`}>
+      <p className={`lg:text-xl text-black uppercase font-bold tracking-widest leading-6 text-center ${(label && href) ? 'md:text-start' : ''}`}>
         {children}
       </p>
       {

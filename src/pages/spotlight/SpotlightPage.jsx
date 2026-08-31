@@ -1,6 +1,5 @@
 import { AnimatePresence, motion } from "motion/react";
 
-import Background from '../../assets/backgrounds/spotlight.png';
 import Spotlight from '../../data/spotlight.json';
 import Productions from '../../data/productions.json';
 import Venues from '../../data/venues.json';
