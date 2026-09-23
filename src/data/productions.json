@@ -1,4 +1,18 @@
 [
+
+  {
+    "upcoming": true,
+    "name": "Oliver!",
+    "roles": ["Lighting Designer"],
+    "writer": "Lionel Bart",
+    "director": "Oliver Bailey",
+    "designers": [],
+    "cast": [],
+    "company": "ksr",
+    "venue": null,
+    "year": "2027",
+    "slug": "oliver"
+  },
   
   {
     "upcoming": true,
@@ -26,6 +40,19 @@
     "year": "2026",
     "photo": null,
     "slug": "things-i-know-to-be-true"
+  },
+
+  {
+    "upcoming": true,
+    "name": "Beyond Therapy",
+    "roles": ["Lighting Designer"],
+    "writer": "Christopher Durang",
+    "director": "Indie Savannah",
+    "company": null,
+    "venue": "slt",
+    "year": "2026",
+    "photo": null,
+    "slug": "beyond-therapy"
   },
 
   {

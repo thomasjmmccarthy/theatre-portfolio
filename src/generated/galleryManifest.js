@@ -201,53 +201,6 @@
       "h": 4912
     }
   ],
-  "great-gatsby": [
-    {
-      "path": "/src/assets/galleries/great-gatsby/01.jpg",
-      "w": 2854,
-      "h": 4288
-    },
-    {
-      "path": "/src/assets/galleries/great-gatsby/02.jpg",
-      "w": 2854,
-      "h": 4288
-    },
-    {
-      "path": "/src/assets/galleries/great-gatsby/03.jpg",
-      "w": 2854,
-      "h": 4288
-    },
-    {
-      "path": "/src/assets/galleries/great-gatsby/03a.jpg",
-      "w": 2854,
-      "h": 4288
-    },
-    {
-      "path": "/src/assets/galleries/great-gatsby/05.jpg",
-      "w": 4288,
-      "h": 2854
-    },
-    {
-      "path": "/src/assets/galleries/great-gatsby/05b.jpg",
-      "w": 2854,
-      "h": 4288
-    },
-    {
-      "path": "/src/assets/galleries/great-gatsby/06.jpg",
-      "w": 2854,
-      "h": 4288
-    },
-    {
-      "path": "/src/assets/galleries/great-gatsby/07.jpg",
-      "w": 2854,
-      "h": 4288
-    },
-    {
-      "path": "/src/assets/galleries/great-gatsby/08.jpg",
-      "w": 4288,
-      "h": 2854
-    }
-  ],
   "grave": [
     {
       "path": "/src/assets/galleries/grave/01.png",
@@ -295,31 +248,51 @@
       "h": 560
     }
   ],
-  "im-not-here-right-now": [
+  "great-gatsby": [
     {
-      "path": "/src/assets/galleries/im-not-here-right-now/01.jpg",
-      "w": 4000,
-      "h": 6000
+      "path": "/src/assets/galleries/great-gatsby/01.jpg",
+      "w": 2854,
+      "h": 4288
     },
     {
-      "path": "/src/assets/galleries/im-not-here-right-now/02.png",
-      "w": 1124,
-      "h": 843
+      "path": "/src/assets/galleries/great-gatsby/02.jpg",
+      "w": 2854,
+      "h": 4288
     },
     {
-      "path": "/src/assets/galleries/im-not-here-right-now/03.png",
-      "w": 1280,
-      "h": 847
+      "path": "/src/assets/galleries/great-gatsby/03.jpg",
+      "w": 2854,
+      "h": 4288
     },
     {
-      "path": "/src/assets/galleries/im-not-here-right-now/04.jpg",
-      "w": 3591,
-      "h": 4789
+      "path": "/src/assets/galleries/great-gatsby/03a.jpg",
+      "w": 2854,
+      "h": 4288
     },
     {
-      "path": "/src/assets/galleries/im-not-here-right-now/05.jpg",
-      "w": 3362,
-      "h": 4482
+      "path": "/src/assets/galleries/great-gatsby/05.jpg",
+      "w": 4288,
+      "h": 2854
+    },
+    {
+      "path": "/src/assets/galleries/great-gatsby/05b.jpg",
+      "w": 2854,
+      "h": 4288
+    },
+    {
+      "path": "/src/assets/galleries/great-gatsby/06.jpg",
+      "w": 2854,
+      "h": 4288
+    },
+    {
+      "path": "/src/assets/galleries/great-gatsby/07.jpg",
+      "w": 2854,
+      "h": 4288
+    },
+    {
+      "path": "/src/assets/galleries/great-gatsby/08.jpg",
+      "w": 4288,
+      "h": 2854
     }
   ],
   "growing-pains": [
@@ -362,6 +335,33 @@
       "path": "/src/assets/galleries/growing-pains/10.jpg",
       "w": 6319,
       "h": 4213
+    }
+  ],
+  "im-not-here-right-now": [
+    {
+      "path": "/src/assets/galleries/im-not-here-right-now/01.jpg",
+      "w": 4000,
+      "h": 6000
+    },
+    {
+      "path": "/src/assets/galleries/im-not-here-right-now/02.png",
+      "w": 1124,
+      "h": 843
+    },
+    {
+      "path": "/src/assets/galleries/im-not-here-right-now/03.png",
+      "w": 1280,
+      "h": 847
+    },
+    {
+      "path": "/src/assets/galleries/im-not-here-right-now/04.jpg",
+      "w": 3591,
+      "h": 4789
+    },
+    {
+      "path": "/src/assets/galleries/im-not-here-right-now/05.jpg",
+      "w": 3362,
+      "h": 4482
     }
   ],
   "mirror-circle": [
