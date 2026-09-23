@@ -17,7 +17,7 @@ import { createSpotlightEntry } from "../spotlight-viewer/createSpotlightEntry";
 export function SpotlightPage() {
 
   // Carousel interval in seconds
-  const CAROUSEL_INTERVAL = 8;
+  const CAROUSEL_INTERVAL = 5;
 
   const [enteringPortfolio, setEnteringPortfolio] = useState(false);
 
@@ -31,6 +31,7 @@ export function SpotlightPage() {
 
   const { is } = useTailwindScreen();
   const navigate = useNavigate();
+
 
   const handleNext = () => {
     setActive(prev => (prev + 1) % Spotlight.length);
@@ -63,6 +64,7 @@ export function SpotlightPage() {
     }, 750);
   }
   
+
   useEffect(() => {
     Productions.forEach((p) => {
       if(Spotlight[active].slug === p.slug) {
@@ -86,6 +88,8 @@ export function SpotlightPage() {
 
     return () => clearInterval(interval);
   }, [interacted])
+
+
 
 
   return (
