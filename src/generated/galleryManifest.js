@@ -38,48 +38,6 @@
       "h": 1036
     }
   ],
-  "archangels": [
-    {
-      "path": "/src/assets/galleries/archangels/01.jpg",
-      "w": 3180,
-      "h": 2385
-    },
-    {
-      "path": "/src/assets/galleries/archangels/02.jpg",
-      "w": 3840,
-      "h": 2560
-    },
-    {
-      "path": "/src/assets/galleries/archangels/03.jpg",
-      "w": 3840,
-      "h": 2560
-    },
-    {
-      "path": "/src/assets/galleries/archangels/04.jpg",
-      "w": 1644,
-      "h": 2192
-    },
-    {
-      "path": "/src/assets/galleries/archangels/05.jpg",
-      "w": 3840,
-      "h": 2560
-    },
-    {
-      "path": "/src/assets/galleries/archangels/06.jpg",
-      "w": 1920,
-      "h": 2560
-    },
-    {
-      "path": "/src/assets/galleries/archangels/07.jpg",
-      "w": 3413,
-      "h": 2560
-    },
-    {
-      "path": "/src/assets/galleries/archangels/08.jpg",
-      "w": 3840,
-      "h": 2560
-    }
-  ],
   "beautiful-thing": [
     {
       "path": "/src/assets/galleries/beautiful-thing/01.jpg",
@@ -125,6 +83,48 @@
       "path": "/src/assets/galleries/beautiful-thing/09.png",
       "w": 1280,
       "h": 963
+    }
+  ],
+  "archangels": [
+    {
+      "path": "/src/assets/galleries/archangels/01.jpg",
+      "w": 3180,
+      "h": 2385
+    },
+    {
+      "path": "/src/assets/galleries/archangels/02.jpg",
+      "w": 3840,
+      "h": 2560
+    },
+    {
+      "path": "/src/assets/galleries/archangels/03.jpg",
+      "w": 3840,
+      "h": 2560
+    },
+    {
+      "path": "/src/assets/galleries/archangels/04.jpg",
+      "w": 1644,
+      "h": 2192
+    },
+    {
+      "path": "/src/assets/galleries/archangels/05.jpg",
+      "w": 3840,
+      "h": 2560
+    },
+    {
+      "path": "/src/assets/galleries/archangels/06.jpg",
+      "w": 1920,
+      "h": 2560
+    },
+    {
+      "path": "/src/assets/galleries/archangels/07.jpg",
+      "w": 3413,
+      "h": 2560
+    },
+    {
+      "path": "/src/assets/galleries/archangels/08.jpg",
+      "w": 3840,
+      "h": 2560
     }
   ],
   "black-mountain": [
@@ -248,53 +248,6 @@
       "h": 560
     }
   ],
-  "great-gatsby": [
-    {
-      "path": "/src/assets/galleries/great-gatsby/01.jpg",
-      "w": 2854,
-      "h": 4288
-    },
-    {
-      "path": "/src/assets/galleries/great-gatsby/02.jpg",
-      "w": 2854,
-      "h": 4288
-    },
-    {
-      "path": "/src/assets/galleries/great-gatsby/03.jpg",
-      "w": 2854,
-      "h": 4288
-    },
-    {
-      "path": "/src/assets/galleries/great-gatsby/03a.jpg",
-      "w": 2854,
-      "h": 4288
-    },
-    {
-      "path": "/src/assets/galleries/great-gatsby/05.jpg",
-      "w": 4288,
-      "h": 2854
-    },
-    {
-      "path": "/src/assets/galleries/great-gatsby/05b.jpg",
-      "w": 2854,
-      "h": 4288
-    },
-    {
-      "path": "/src/assets/galleries/great-gatsby/06.jpg",
-      "w": 2854,
-      "h": 4288
-    },
-    {
-      "path": "/src/assets/galleries/great-gatsby/07.jpg",
-      "w": 2854,
-      "h": 4288
-    },
-    {
-      "path": "/src/assets/galleries/great-gatsby/08.jpg",
-      "w": 4288,
-      "h": 2854
-    }
-  ],
   "growing-pains": [
     {
       "path": "/src/assets/galleries/growing-pains/01.jpg",
@@ -362,6 +315,53 @@
       "path": "/src/assets/galleries/im-not-here-right-now/05.jpg",
       "w": 3362,
       "h": 4482
+    }
+  ],
+  "great-gatsby": [
+    {
+      "path": "/src/assets/galleries/great-gatsby/01.jpg",
+      "w": 2854,
+      "h": 4288
+    },
+    {
+      "path": "/src/assets/galleries/great-gatsby/02.jpg",
+      "w": 2854,
+      "h": 4288
+    },
+    {
+      "path": "/src/assets/galleries/great-gatsby/03.jpg",
+      "w": 2854,
+      "h": 4288
+    },
+    {
+      "path": "/src/assets/galleries/great-gatsby/03a.jpg",
+      "w": 2854,
+      "h": 4288
+    },
+    {
+      "path": "/src/assets/galleries/great-gatsby/05.jpg",
+      "w": 4288,
+      "h": 2854
+    },
+    {
+      "path": "/src/assets/galleries/great-gatsby/05b.jpg",
+      "w": 2854,
+      "h": 4288
+    },
+    {
+      "path": "/src/assets/galleries/great-gatsby/06.jpg",
+      "w": 2854,
+      "h": 4288
+    },
+    {
+      "path": "/src/assets/galleries/great-gatsby/07.jpg",
+      "w": 2854,
+      "h": 4288
+    },
+    {
+      "path": "/src/assets/galleries/great-gatsby/08.jpg",
+      "w": 4288,
+      "h": 2854
     }
   ],
   "mirror-circle": [
