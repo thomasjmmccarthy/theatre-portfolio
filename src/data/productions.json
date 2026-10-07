@@ -17,7 +17,7 @@
   {
     "upcoming": true,
     "name": "Black Mountain",
-    "roles": ["Lighting Designer"],
+    "roles": ["Production Manager", "Lighting Designer"],
     "writer": "Brad Birch",
     "director": "Kurban Kassam",
     "designers": [
@@ -57,7 +57,7 @@
 
   {
     "name": "Black Mountain",
-    "roles": ["Lighting Designer"],
+    "roles": ["Production Manager", "Lighting Designer"],
     "writer": "Brad Birch",
     "director": "Kurban Kassam",
     "designers": [
@@ -226,7 +226,7 @@
 
   {
     "name": "Growing Pains",
-    "roles": ["Lead Technician"],
+    "roles": ["Lead Technician", "Co-Production Manager"],
     "writer": "The Old Vic Theatre Makers 2024/25",
     "director": "The Old Vic Theatre Makers 2024/25",
     "designers": [
@@ -266,15 +266,14 @@
 
   {
     "name": "The Unspoken",
-    "roles": ["Playwright", "Director"],
+    "roles": ["Playwright", "Director", "Co-Production Manager"],
     "writer": "Thomas McCarthy",
     "director": "Thomas McCarthy",
     "designers": [
       { "role": "Set Designers", "name": "Finn O'Grady & Alice Pearson" },
       { "role": "Costume Designer", "name": "Kayla Vicente" },
       { "role": "Lighting Designer", "name": "Grace Redfern" },
-      { "role": "Sound Designer", "name": "Ben Farnham" },
-      { "role": "Composer", "name": "Sam Loft" }
+      { "role": "Sound Designer", "name": "Ben Farnham" }
     ],
     "cast": [
       "Dylan Day", "Ellie-Mae Rooke", "Ezri Mannion", "Joshua Steele", "Zac Ribbins",
@@ -607,7 +606,7 @@
 
   {
     "name": "Dear Brutus",
-    "roles": ["Producer"],
+    "roles": ["Producer", "Production Manager"],
     "writer": "J.M. Barrie",
     "director": "Alicia Oldbury",
     "designers": [
@@ -628,7 +627,7 @@
 
   {
     "name": "The Macbeths",
-    "roles": ["Assistant Director"],
+    "roles": ["Assistant Director", "Assistant Production Manager"],
     "writer": "William Shakespeare",
     "director": "Steve Mount",
     "designers": null,

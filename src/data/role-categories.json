@@ -36,6 +36,9 @@
   "production_management": {
     "name": "Production Management",
     "roles": [
+      "Production Manager",
+      "Co-Production Manager",
+      "Assistant Production Manager",
       "Producer",
       "Deputy Stage Manager"
     ]

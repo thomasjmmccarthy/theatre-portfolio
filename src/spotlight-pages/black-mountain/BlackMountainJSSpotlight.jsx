@@ -41,7 +41,7 @@ export function BlackMountainJSSpotlight() {
       <SVAnnouncement label='See upcoming' href='https://theatre.thomasmccarthy.net/upcoming'>'Black Mountain' returns to the stage in February 2027</SVAnnouncement>
 
       <SVTextSection>
-        This entry relates to <i>Black Mountain's</i> initial run at the <b>South London Theatre</b> in April 2026.
+        This entry relates to the Lighting Design of <i>Black Mountain's</i> initial run at the <b>South London Theatre</b> (April 2026).
       </SVTextSection>
 
       <SVTextSection>
