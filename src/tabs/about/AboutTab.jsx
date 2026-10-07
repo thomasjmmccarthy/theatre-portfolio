@@ -7,7 +7,7 @@ export function AboutTab() {
       <div className='space-y-4 text-sm'>
         <p>
           Thomas 'Tommo' McCarthy is a freelance theatre maker based in Kent and London, specialising
-          in <b>lighting design, production management and technical theatre.</b> His work has featured in productions across Kent, London and York.
+          in <b>lighting design, management, and technical theatre.</b> His work has featured in productions across Kent, London and York.
         </p>
         <p>
           Thomas has been involved in creative development programmes including <b>the Old Vic Theatre Makers 
