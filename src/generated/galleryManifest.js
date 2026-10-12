@@ -6,36 +6,46 @@
     );
 
     export const galleryManifest = {
-  "acetone": [
+  "archangels": [
     {
-      "path": "/src/assets/galleries/acetone/01.jpg",
-      "w": 640,
-      "h": 480
+      "path": "/src/assets/galleries/archangels/01.jpg",
+      "w": 3180,
+      "h": 2385
     },
     {
-      "path": "/src/assets/galleries/acetone/02.jpeg",
-      "w": 1321,
-      "h": 990
+      "path": "/src/assets/galleries/archangels/02.jpg",
+      "w": 3840,
+      "h": 2560
     },
     {
-      "path": "/src/assets/galleries/acetone/03.jpg",
-      "w": 640,
-      "h": 480
+      "path": "/src/assets/galleries/archangels/03.jpg",
+      "w": 3840,
+      "h": 2560
     },
     {
-      "path": "/src/assets/galleries/acetone/04.jpg",
-      "w": 480,
-      "h": 640
+      "path": "/src/assets/galleries/archangels/04.jpg",
+      "w": 1644,
+      "h": 2192
     },
     {
-      "path": "/src/assets/galleries/acetone/05.jpg",
-      "w": 480,
-      "h": 640
+      "path": "/src/assets/galleries/archangels/05.jpg",
+      "w": 3840,
+      "h": 2560
     },
     {
-      "path": "/src/assets/galleries/acetone/06.jpeg",
-      "w": 1381,
-      "h": 1036
+      "path": "/src/assets/galleries/archangels/06.jpg",
+      "w": 1920,
+      "h": 2560
+    },
+    {
+      "path": "/src/assets/galleries/archangels/07.jpg",
+      "w": 3413,
+      "h": 2560
+    },
+    {
+      "path": "/src/assets/galleries/archangels/08.jpg",
+      "w": 3840,
+      "h": 2560
     }
   ],
   "beautiful-thing": [
@@ -85,48 +95,6 @@
       "h": 963
     }
   ],
-  "archangels": [
-    {
-      "path": "/src/assets/galleries/archangels/01.jpg",
-      "w": 3180,
-      "h": 2385
-    },
-    {
-      "path": "/src/assets/galleries/archangels/02.jpg",
-      "w": 3840,
-      "h": 2560
-    },
-    {
-      "path": "/src/assets/galleries/archangels/03.jpg",
-      "w": 3840,
-      "h": 2560
-    },
-    {
-      "path": "/src/assets/galleries/archangels/04.jpg",
-      "w": 1644,
-      "h": 2192
-    },
-    {
-      "path": "/src/assets/galleries/archangels/05.jpg",
-      "w": 3840,
-      "h": 2560
-    },
-    {
-      "path": "/src/assets/galleries/archangels/06.jpg",
-      "w": 1920,
-      "h": 2560
-    },
-    {
-      "path": "/src/assets/galleries/archangels/07.jpg",
-      "w": 3413,
-      "h": 2560
-    },
-    {
-      "path": "/src/assets/galleries/archangels/08.jpg",
-      "w": 3840,
-      "h": 2560
-    }
-  ],
   "black-mountain": [
     {
       "path": "/src/assets/galleries/black-mountain/01.jpg",
@@ -174,33 +142,6 @@
       "h": 1365
     }
   ],
-  "carousel": [
-    {
-      "path": "/src/assets/galleries/carousel/01.jpeg",
-      "w": 6000,
-      "h": 4000
-    },
-    {
-      "path": "/src/assets/galleries/carousel/02.jpeg",
-      "w": 2837,
-      "h": 3783
-    },
-    {
-      "path": "/src/assets/galleries/carousel/03.jpeg",
-      "w": 4890,
-      "h": 3668
-    },
-    {
-      "path": "/src/assets/galleries/carousel/04.jpeg",
-      "w": 2602,
-      "h": 3469
-    },
-    {
-      "path": "/src/assets/galleries/carousel/05.jpeg",
-      "w": 3684,
-      "h": 4912
-    }
-  ],
   "grave": [
     {
       "path": "/src/assets/galleries/grave/01.png",
@@ -246,6 +187,80 @@
       "path": "/src/assets/galleries/grave/09.jpeg",
       "w": 747,
       "h": 560
+    }
+  ],
+  "great-gatsby": [
+    {
+      "path": "/src/assets/galleries/great-gatsby/01.jpg",
+      "w": 2854,
+      "h": 4288
+    },
+    {
+      "path": "/src/assets/galleries/great-gatsby/02.jpg",
+      "w": 2854,
+      "h": 4288
+    },
+    {
+      "path": "/src/assets/galleries/great-gatsby/03.jpg",
+      "w": 2854,
+      "h": 4288
+    },
+    {
+      "path": "/src/assets/galleries/great-gatsby/03a.jpg",
+      "w": 2854,
+      "h": 4288
+    },
+    {
+      "path": "/src/assets/galleries/great-gatsby/05.jpg",
+      "w": 4288,
+      "h": 2854
+    },
+    {
+      "path": "/src/assets/galleries/great-gatsby/05b.jpg",
+      "w": 2854,
+      "h": 4288
+    },
+    {
+      "path": "/src/assets/galleries/great-gatsby/06.jpg",
+      "w": 2854,
+      "h": 4288
+    },
+    {
+      "path": "/src/assets/galleries/great-gatsby/07.jpg",
+      "w": 2854,
+      "h": 4288
+    },
+    {
+      "path": "/src/assets/galleries/great-gatsby/08.jpg",
+      "w": 4288,
+      "h": 2854
+    }
+  ],
+  "carousel": [
+    {
+      "path": "/src/assets/galleries/carousel/01.jpeg",
+      "w": 6000,
+      "h": 4000
+    },
+    {
+      "path": "/src/assets/galleries/carousel/02.jpeg",
+      "w": 2837,
+      "h": 3783
+    },
+    {
+      "path": "/src/assets/galleries/carousel/03.jpeg",
+      "w": 4890,
+      "h": 3668
+    },
+    {
+      "path": "/src/assets/galleries/carousel/04.jpeg",
+      "w": 2602,
+      "h": 3469
+    },
+    {
+      "path": "/src/assets/galleries/carousel/05.jpeg",
+      "w": 3684,
+      "h": 4912
     }
   ],
   "growing-pains": [
@@ -315,53 +330,6 @@
       "path": "/src/assets/galleries/im-not-here-right-now/05.jpg",
       "w": 3362,
       "h": 4482
-    }
-  ],
-  "great-gatsby": [
-    {
-      "path": "/src/assets/galleries/great-gatsby/01.jpg",
-      "w": 2854,
-      "h": 4288
-    },
-    {
-      "path": "/src/assets/galleries/great-gatsby/02.jpg",
-      "w": 2854,
-      "h": 4288
-    },
-    {
-      "path": "/src/assets/galleries/great-gatsby/03.jpg",
-      "w": 2854,
-      "h": 4288
-    },
-    {
-      "path": "/src/assets/galleries/great-gatsby/03a.jpg",
-      "w": 2854,
-      "h": 4288
-    },
-    {
-      "path": "/src/assets/galleries/great-gatsby/05.jpg",
-      "w": 4288,
-      "h": 2854
-    },
-    {
-      "path": "/src/assets/galleries/great-gatsby/05b.jpg",
-      "w": 2854,
-      "h": 4288
-    },
-    {
-      "path": "/src/assets/galleries/great-gatsby/06.jpg",
-      "w": 2854,
-      "h": 4288
-    },
-    {
-      "path": "/src/assets/galleries/great-gatsby/07.jpg",
-      "w": 2854,
-      "h": 4288
-    },
-    {
-      "path": "/src/assets/galleries/great-gatsby/08.jpg",
-      "w": 4288,
-      "h": 2854
     }
   ],
   "mirror-circle": [
