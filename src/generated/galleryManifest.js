@@ -95,6 +95,53 @@
       "h": 963
     }
   ],
+  "grave": [
+    {
+      "path": "/src/assets/galleries/grave/01.png",
+      "w": 704,
+      "h": 503
+    },
+    {
+      "path": "/src/assets/galleries/grave/02.png",
+      "w": 1280,
+      "h": 963
+    },
+    {
+      "path": "/src/assets/galleries/grave/03.png",
+      "w": 722,
+      "h": 962
+    },
+    {
+      "path": "/src/assets/galleries/grave/04.png",
+      "w": 722,
+      "h": 962
+    },
+    {
+      "path": "/src/assets/galleries/grave/05.png",
+      "w": 1280,
+      "h": 962
+    },
+    {
+      "path": "/src/assets/galleries/grave/06.png",
+      "w": 1280,
+      "h": 962
+    },
+    {
+      "path": "/src/assets/galleries/grave/07.png",
+      "w": 722,
+      "h": 962
+    },
+    {
+      "path": "/src/assets/galleries/grave/08.png",
+      "w": 728,
+      "h": 644
+    },
+    {
+      "path": "/src/assets/galleries/grave/09.jpeg",
+      "w": 747,
+      "h": 560
+    }
+  ],
   "black-mountain": [
     {
       "path": "/src/assets/galleries/black-mountain/01.jpg",
@@ -142,51 +189,31 @@
       "h": 1365
     }
   ],
-  "grave": [
+  "carousel": [
     {
-      "path": "/src/assets/galleries/grave/01.png",
-      "w": 704,
-      "h": 503
+      "path": "/src/assets/galleries/carousel/01.jpeg",
+      "w": 6000,
+      "h": 4000
     },
     {
-      "path": "/src/assets/galleries/grave/02.png",
-      "w": 1280,
-      "h": 963
+      "path": "/src/assets/galleries/carousel/02.jpeg",
+      "w": 2837,
+      "h": 3783
     },
     {
-      "path": "/src/assets/galleries/grave/03.png",
-      "w": 722,
-      "h": 962
+      "path": "/src/assets/galleries/carousel/03.jpeg",
+      "w": 4890,
+      "h": 3668
     },
     {
-      "path": "/src/assets/galleries/grave/04.png",
-      "w": 722,
-      "h": 962
+      "path": "/src/assets/galleries/carousel/04.jpeg",
+      "w": 2602,
+      "h": 3469
     },
     {
-      "path": "/src/assets/galleries/grave/05.png",
-      "w": 1280,
-      "h": 962
-    },
-    {
-      "path": "/src/assets/galleries/grave/06.png",
-      "w": 1280,
-      "h": 962
-    },
-    {
-      "path": "/src/assets/galleries/grave/07.png",
-      "w": 722,
-      "h": 962
-    },
-    {
-      "path": "/src/assets/galleries/grave/08.png",
-      "w": 728,
-      "h": 644
-    },
-    {
-      "path": "/src/assets/galleries/grave/09.jpeg",
-      "w": 747,
-      "h": 560
+      "path": "/src/assets/galleries/carousel/05.jpeg",
+      "w": 3684,
+      "h": 4912
     }
   ],
   "great-gatsby": [
@@ -236,33 +263,6 @@
       "h": 2854
     }
   ],
-  "carousel": [
-    {
-      "path": "/src/assets/galleries/carousel/01.jpeg",
-      "w": 6000,
-      "h": 4000
-    },
-    {
-      "path": "/src/assets/galleries/carousel/02.jpeg",
-      "w": 2837,
-      "h": 3783
-    },
-    {
-      "path": "/src/assets/galleries/carousel/03.jpeg",
-      "w": 4890,
-      "h": 3668
-    },
-    {
-      "path": "/src/assets/galleries/carousel/04.jpeg",
-      "w": 2602,
-      "h": 3469
-    },
-    {
-      "path": "/src/assets/galleries/carousel/05.jpeg",
-      "w": 3684,
-      "h": 4912
-    }
-  ],
   "growing-pains": [
     {
       "path": "/src/assets/galleries/growing-pains/01.jpg",
@@ -303,33 +303,6 @@
       "path": "/src/assets/galleries/growing-pains/10.jpg",
       "w": 6319,
       "h": 4213
-    }
-  ],
-  "im-not-here-right-now": [
-    {
-      "path": "/src/assets/galleries/im-not-here-right-now/01.jpg",
-      "w": 4000,
-      "h": 6000
-    },
-    {
-      "path": "/src/assets/galleries/im-not-here-right-now/02.png",
-      "w": 1124,
-      "h": 843
-    },
-    {
-      "path": "/src/assets/galleries/im-not-here-right-now/03.png",
-      "w": 1280,
-      "h": 847
-    },
-    {
-      "path": "/src/assets/galleries/im-not-here-right-now/04.jpg",
-      "w": 3591,
-      "h": 4789
-    },
-    {
-      "path": "/src/assets/galleries/im-not-here-right-now/05.jpg",
-      "w": 3362,
-      "h": 4482
     }
   ],
   "mirror-circle": [
@@ -377,6 +350,33 @@
       "path": "/src/assets/galleries/mirror-circle/11.jpg",
       "w": 722,
       "h": 962
+    }
+  ],
+  "im-not-here-right-now": [
+    {
+      "path": "/src/assets/galleries/im-not-here-right-now/01.jpg",
+      "w": 4000,
+      "h": 6000
+    },
+    {
+      "path": "/src/assets/galleries/im-not-here-right-now/02.png",
+      "w": 1124,
+      "h": 843
+    },
+    {
+      "path": "/src/assets/galleries/im-not-here-right-now/03.png",
+      "w": 1280,
+      "h": 847
+    },
+    {
+      "path": "/src/assets/galleries/im-not-here-right-now/04.jpg",
+      "w": 3591,
+      "h": 4789
+    },
+    {
+      "path": "/src/assets/galleries/im-not-here-right-now/05.jpg",
+      "w": 3362,
+      "h": 4482
     }
   ],
   "unspoken-dark-slate": [

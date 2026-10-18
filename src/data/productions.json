@@ -2,12 +2,36 @@
 
   {
     "upcoming": true,
+    "name": "Homes and The Ripper",
+    "roles": ["Lighting Designer"],
+    "writer": "Brian Clemens",
+    "director": "Zane Fleming",
+    "company": null,
+    "venue": "slt",
+    "year": "2027",
+    "photo": null,
+    "slug": "holmes-and-the-ripper"
+  },
+
+  {
+    "upcoming": true,
+    "name": "Mort",
+    "roles": ["Producer", "Production Manager"],
+    "writer": "Terry Pratchett, adapted by Stephen Briggs",
+    "director": "Milenka James",
+    "company": null,
+    "venue": "slt",
+    "year": "2027",
+    "photo": null,
+    "slug": "mort"
+  },
+
+  {
+    "upcoming": true,
     "name": "Oliver!",
     "roles": ["Lighting Designer"],
     "writer": "Lionel Bart",
     "director": "Oliver Bailey",
-    "designers": [],
-    "cast": [],
     "company": "ksr",
     "venue": null,
     "year": "2027",
@@ -35,24 +59,14 @@
     "roles": ["Lighting Designer"],
     "writer": "Andrew Bovell",
     "director": "Stephen Hayward",
+    "designers": [
+      { "role": "Associate Lighting Designer", "name": "Leanne Mitchell" }
+    ],
     "company": null,
     "venue": "slt",
     "year": "2026",
     "photo": null,
     "slug": "things-i-know-to-be-true"
-  },
-
-  {
-    "upcoming": true,
-    "name": "Beyond Therapy",
-    "roles": ["Lighting Designer"],
-    "writer": "Christopher Durang",
-    "director": "Indie Savannah",
-    "company": null,
-    "venue": "slt",
-    "year": "2026",
-    "photo": null,
-    "slug": "beyond-therapy"
   },
 
   {
