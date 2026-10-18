@@ -6,48 +6,6 @@
     );
 
     export const galleryManifest = {
-  "archangels": [
-    {
-      "path": "/src/assets/galleries/archangels/01.jpg",
-      "w": 3180,
-      "h": 2385
-    },
-    {
-      "path": "/src/assets/galleries/archangels/02.jpg",
-      "w": 3840,
-      "h": 2560
-    },
-    {
-      "path": "/src/assets/galleries/archangels/03.jpg",
-      "w": 3840,
-      "h": 2560
-    },
-    {
-      "path": "/src/assets/galleries/archangels/04.jpg",
-      "w": 1644,
-      "h": 2192
-    },
-    {
-      "path": "/src/assets/galleries/archangels/05.jpg",
-      "w": 3840,
-      "h": 2560
-    },
-    {
-      "path": "/src/assets/galleries/archangels/06.jpg",
-      "w": 1920,
-      "h": 2560
-    },
-    {
-      "path": "/src/assets/galleries/archangels/07.jpg",
-      "w": 3413,
-      "h": 2560
-    },
-    {
-      "path": "/src/assets/galleries/archangels/08.jpg",
-      "w": 3840,
-      "h": 2560
-    }
-  ],
   "beautiful-thing": [
     {
       "path": "/src/assets/galleries/beautiful-thing/01.jpg",
@@ -95,51 +53,46 @@
       "h": 963
     }
   ],
-  "grave": [
+  "archangels": [
     {
-      "path": "/src/assets/galleries/grave/01.png",
-      "w": 704,
-      "h": 503
+      "path": "/src/assets/galleries/archangels/01.jpg",
+      "w": 3180,
+      "h": 2385
     },
     {
-      "path": "/src/assets/galleries/grave/02.png",
-      "w": 1280,
-      "h": 963
+      "path": "/src/assets/galleries/archangels/02.jpg",
+      "w": 3840,
+      "h": 2560
     },
     {
-      "path": "/src/assets/galleries/grave/03.png",
-      "w": 722,
-      "h": 962
+      "path": "/src/assets/galleries/archangels/03.jpg",
+      "w": 3840,
+      "h": 2560
     },
     {
-      "path": "/src/assets/galleries/grave/04.png",
-      "w": 722,
-      "h": 962
+      "path": "/src/assets/galleries/archangels/04.jpg",
+      "w": 1644,
+      "h": 2192
     },
     {
-      "path": "/src/assets/galleries/grave/05.png",
-      "w": 1280,
-      "h": 962
+      "path": "/src/assets/galleries/archangels/05.jpg",
+      "w": 3840,
+      "h": 2560
     },
     {
-      "path": "/src/assets/galleries/grave/06.png",
-      "w": 1280,
-      "h": 962
+      "path": "/src/assets/galleries/archangels/06.jpg",
+      "w": 1920,
+      "h": 2560
     },
     {
-      "path": "/src/assets/galleries/grave/07.png",
-      "w": 722,
-      "h": 962
+      "path": "/src/assets/galleries/archangels/07.jpg",
+      "w": 3413,
+      "h": 2560
     },
     {
-      "path": "/src/assets/galleries/grave/08.png",
-      "w": 728,
-      "h": 644
-    },
-    {
-      "path": "/src/assets/galleries/grave/09.jpeg",
-      "w": 747,
-      "h": 560
+      "path": "/src/assets/galleries/archangels/08.jpg",
+      "w": 3840,
+      "h": 2560
     }
   ],
   "black-mountain": [
@@ -261,6 +214,53 @@
       "path": "/src/assets/galleries/great-gatsby/08.jpg",
       "w": 4288,
       "h": 2854
+    }
+  ],
+  "grave": [
+    {
+      "path": "/src/assets/galleries/grave/01.png",
+      "w": 704,
+      "h": 503
+    },
+    {
+      "path": "/src/assets/galleries/grave/02.png",
+      "w": 1280,
+      "h": 963
+    },
+    {
+      "path": "/src/assets/galleries/grave/03.png",
+      "w": 722,
+      "h": 962
+    },
+    {
+      "path": "/src/assets/galleries/grave/04.png",
+      "w": 722,
+      "h": 962
+    },
+    {
+      "path": "/src/assets/galleries/grave/05.png",
+      "w": 1280,
+      "h": 962
+    },
+    {
+      "path": "/src/assets/galleries/grave/06.png",
+      "w": 1280,
+      "h": 962
+    },
+    {
+      "path": "/src/assets/galleries/grave/07.png",
+      "w": 722,
+      "h": 962
+    },
+    {
+      "path": "/src/assets/galleries/grave/08.png",
+      "w": 728,
+      "h": 644
+    },
+    {
+      "path": "/src/assets/galleries/grave/09.jpeg",
+      "w": 747,
+      "h": 560
     }
   ],
   "growing-pains": [

@@ -70,6 +70,23 @@
   },
 
   {
+    "upcoming": true,
+    "name": "Gaslight",
+    "roles": ["Tech Operator"],
+    "writer": "Patrick Hamilton",
+    "director": "Jonathan Pott-Negrine",
+    "designers": [
+      {"role": "Designer", "name": "Bryon Fear"},
+      {"role": "Designer", "name": "Chaz Doyle"}
+    ],
+    "company": null,
+    "venue": "slt",
+    "year": "2026",
+    "photo": null,
+    "slug": "gaslight"
+  },
+
+  {
     "name": "Black Mountain",
     "roles": ["Production Manager", "Lighting Designer"],
     "writer": "Brad Birch",
