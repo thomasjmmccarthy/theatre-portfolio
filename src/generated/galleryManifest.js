@@ -6,53 +6,6 @@
     );
 
     export const galleryManifest = {
-  "beautiful-thing": [
-    {
-      "path": "/src/assets/galleries/beautiful-thing/01.jpg",
-      "w": 3413,
-      "h": 2560
-    },
-    {
-      "path": "/src/assets/galleries/beautiful-thing/02.jpg",
-      "w": 3840,
-      "h": 2560
-    },
-    {
-      "path": "/src/assets/galleries/beautiful-thing/03.png",
-      "w": 1280,
-      "h": 963
-    },
-    {
-      "path": "/src/assets/galleries/beautiful-thing/04.jpg",
-      "w": 1920,
-      "h": 2560
-    },
-    {
-      "path": "/src/assets/galleries/beautiful-thing/05.JPG",
-      "w": 3840,
-      "h": 2560
-    },
-    {
-      "path": "/src/assets/galleries/beautiful-thing/06.jpg",
-      "w": 2560,
-      "h": 3840
-    },
-    {
-      "path": "/src/assets/galleries/beautiful-thing/07.JPG",
-      "w": 2560,
-      "h": 3840
-    },
-    {
-      "path": "/src/assets/galleries/beautiful-thing/08.JPG",
-      "w": 2560,
-      "h": 3840
-    },
-    {
-      "path": "/src/assets/galleries/beautiful-thing/09.png",
-      "w": 1280,
-      "h": 963
-    }
-  ],
   "archangels": [
     {
       "path": "/src/assets/galleries/archangels/01.jpg",
@@ -140,6 +93,53 @@
       "path": "/src/assets/galleries/black-mountain/09.jpg",
       "w": 2048,
       "h": 1365
+    }
+  ],
+  "beautiful-thing": [
+    {
+      "path": "/src/assets/galleries/beautiful-thing/01.jpg",
+      "w": 3413,
+      "h": 2560
+    },
+    {
+      "path": "/src/assets/galleries/beautiful-thing/02.jpg",
+      "w": 3840,
+      "h": 2560
+    },
+    {
+      "path": "/src/assets/galleries/beautiful-thing/03.png",
+      "w": 1280,
+      "h": 963
+    },
+    {
+      "path": "/src/assets/galleries/beautiful-thing/04.jpg",
+      "w": 1920,
+      "h": 2560
+    },
+    {
+      "path": "/src/assets/galleries/beautiful-thing/05.JPG",
+      "w": 3840,
+      "h": 2560
+    },
+    {
+      "path": "/src/assets/galleries/beautiful-thing/06.jpg",
+      "w": 2560,
+      "h": 3840
+    },
+    {
+      "path": "/src/assets/galleries/beautiful-thing/07.JPG",
+      "w": 2560,
+      "h": 3840
+    },
+    {
+      "path": "/src/assets/galleries/beautiful-thing/08.JPG",
+      "w": 2560,
+      "h": 3840
+    },
+    {
+      "path": "/src/assets/galleries/beautiful-thing/09.png",
+      "w": 1280,
+      "h": 963
     }
   ],
   "carousel": [
@@ -305,6 +305,33 @@
       "h": 4213
     }
   ],
+  "im-not-here-right-now": [
+    {
+      "path": "/src/assets/galleries/im-not-here-right-now/01.jpg",
+      "w": 4000,
+      "h": 6000
+    },
+    {
+      "path": "/src/assets/galleries/im-not-here-right-now/02.png",
+      "w": 1124,
+      "h": 843
+    },
+    {
+      "path": "/src/assets/galleries/im-not-here-right-now/03.png",
+      "w": 1280,
+      "h": 847
+    },
+    {
+      "path": "/src/assets/galleries/im-not-here-right-now/04.jpg",
+      "w": 3591,
+      "h": 4789
+    },
+    {
+      "path": "/src/assets/galleries/im-not-here-right-now/05.jpg",
+      "w": 3362,
+      "h": 4482
+    }
+  ],
   "mirror-circle": [
     {
       "path": "/src/assets/galleries/mirror-circle/01_opening.jpg",
@@ -352,31 +379,41 @@
       "h": 962
     }
   ],
-  "im-not-here-right-now": [
+  "things-i-know-to-be-true": [
     {
-      "path": "/src/assets/galleries/im-not-here-right-now/01.jpg",
-      "w": 4000,
-      "h": 6000
+      "path": "/src/assets/galleries/things-i-know-to-be-true/1.webp",
+      "w": 4096,
+      "h": 2731
     },
     {
-      "path": "/src/assets/galleries/im-not-here-right-now/02.png",
-      "w": 1124,
-      "h": 843
+      "path": "/src/assets/galleries/things-i-know-to-be-true/2.webp",
+      "w": 1536,
+      "h": 2048
     },
     {
-      "path": "/src/assets/galleries/im-not-here-right-now/03.png",
-      "w": 1280,
-      "h": 847
+      "path": "/src/assets/galleries/things-i-know-to-be-true/3.webp",
+      "w": 2048,
+      "h": 1366
     },
     {
-      "path": "/src/assets/galleries/im-not-here-right-now/04.jpg",
-      "w": 3591,
-      "h": 4789
+      "path": "/src/assets/galleries/things-i-know-to-be-true/4.webp",
+      "w": 2048,
+      "h": 2731
     },
     {
-      "path": "/src/assets/galleries/im-not-here-right-now/05.jpg",
-      "w": 3362,
-      "h": 4482
+      "path": "/src/assets/galleries/things-i-know-to-be-true/5.webp",
+      "w": 2048,
+      "h": 1536
+    },
+    {
+      "path": "/src/assets/galleries/things-i-know-to-be-true/6.webp",
+      "w": 4096,
+      "h": 2987
+    },
+    {
+      "path": "/src/assets/galleries/things-i-know-to-be-true/7.webp",
+      "w": 2048,
+      "h": 1536
     }
   ],
   "unspoken-dark-slate": [

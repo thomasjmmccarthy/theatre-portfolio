@@ -1,22 +1,22 @@
 {
   "lighting": {
-    "name": "Lighting Design",
+    "name": "Lighting",
     "roles": [
       "Lighting Designer",
       "Lead Technician",
-      "Tech Operator"
+      "Lighting Operator"
     ]
   },
 
   "sound": {
-    "name": "Sound Design",
+    "name": "Sound",
     "roles": [
       "Sound Designer",
       "Lead Technician",
       "Sound Operator",
       "Sound Supervisor",
       "Sound Team Coordinator",
-      "Tech Operator"
+      "Sound Operator"
     ]
   },
 

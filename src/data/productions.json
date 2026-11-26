@@ -54,25 +54,25 @@
   },
 
   {
-    "upcoming": true,
     "name": "Things I Know to Be True",
     "roles": ["Lighting Designer"],
     "writer": "Andrew Bovell",
     "director": "Stephen Hayward",
     "designers": [
-      { "role": "Associate Lighting Designer", "name": "Leanne Mitchell" }
+      {"role": "Set Designer", "name": "Chaz Doyle"}
     ],
     "company": null,
     "venue": "slt",
     "year": "2026",
-    "photo": null,
+    "photo": {
+      "credit": "Phil Gammon"
+    },
     "slug": "things-i-know-to-be-true"
   },
 
   {
-    "upcoming": true,
     "name": "Gaslight",
-    "roles": ["Tech Operator"],
+    "roles": ["Lighting Operator", "Sound Operator"],
     "writer": "Patrick Hamilton",
     "director": "Jonathan Pott-Negrine",
     "designers": [
@@ -82,7 +82,9 @@
     "company": null,
     "venue": "slt",
     "year": "2026",
-    "photo": null,
+    "photo": {
+      "credit": "Phil Gammon"
+    },
     "slug": "gaslight"
   },
 
